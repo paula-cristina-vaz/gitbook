@@ -1,0 +1,18 @@
+@startuml
+
+!include diagram-config.puml!tutorial
+
+participant "Client\nApp" as partner
+participant "Farfetch\nSTS" as farfetch
+participant "/guestUsers" as resource
+
+group Access Token request
+    partner -> farfetch: Requests Access Token to ""/token""\n""grant_type=GuestUser""
+    farfetch -> farfetch: Validates the client\ncredentials
+    farfetch -> resource: Requests the\nguest user id
+    resource -> farfetch: Guest user id
+    farfetch --> partner: Access Token Response\nwith guest user id
+end
+
+@enduml
+

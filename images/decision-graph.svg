@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="352px" preserveAspectRatio="none" style="width:600px;height:352px;" version="1.1" viewBox="0 0 600 352" width="600px" zoomAndPan="magnify"><defs/><g><polygon fill="#FFFFFF" points="334.5625,11.3916,417.5625,11.3916,429.5625,36.7393,417.5625,62.0869,334.5625,62.0869,322.5625,36.7393,334.5625,11.3916" style="stroke: #B6B6B6; stroke-width: 1.5;"/><text fill="#222222" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="64" x="334.5625" y="25.3984">Does your</text><text fill="#222222" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="83" x="334.5625" y="42.2969">client app has</text><text fill="#222222" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="79" x="334.5625" y="59.1953">an end user?</text><text fill="#5D5D5D" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="21" x="301.5625" y="33.8477">yes</text><text fill="#5D5D5D" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="16" x="429.5625" y="33.8477">no</text><polygon fill="#FFFFFF" points="125.625,72.0869,205.625,72.0869,217.625,88.9854,205.625,105.8838,125.625,105.8838,113.625,88.9854,125.625,72.0869" style="stroke: #B6B6B6; stroke-width: 1.5;"/><text fill="#222222" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="64" x="125.625" y="86.0938">Is the user</text><text fill="#222222" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="80" x="125.625" y="102.9922">anonymous?</text><text fill="#5D5D5D" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="21" x="92.625" y="86.0938">yes</text><text fill="#5D5D5D" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="16" x="217.625" y="86.0938">no</text><rect fill="#E6E6E6" height="53.7969" rx="12.5" ry="12.5" style="stroke: #E6E6E6; stroke-width: 1.5;" width="86" x="10" y="115.8838"/><text fill="#5D5D5D" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="33" x="20" y="139.8906">Client</text><text fill="#5D5D5D" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="66" x="20" y="156.7891">Credentials</text><polygon fill="#FFFFFF" points="217.75,115.8838,338.75,115.8838,350.75,158.1299,338.75,200.376,217.75,200.376,205.75,158.1299,217.75,115.8838" style="stroke: #B6B6B6; stroke-width: 1.5;"/><text fill="#222222" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="105" x="217.75" y="129.8906">Is your client app</text><text fill="#222222" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="70" x="217.75" y="146.7891">back-office,</text><text fill="#222222" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="71" x="217.75" y="163.6875">SPA, mobile</text><text fill="#222222" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="54" x="217.75" y="180.5859">or native</text><text fill="#222222" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="121" x="217.75" y="197.4844">with PKCE support?</text><text fill="#5D5D5D" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="21" x="184.75" y="155.2383">yes</text><text fill="#5D5D5D" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="16" x="350.75" y="155.2383">no</text><rect fill="#E6E6E6" height="70.6953" rx="12.5" ry="12.5" style="stroke: #E6E6E6; stroke-width: 1.5;" width="100" x="126" y="210.376"/><text fill="#5D5D5D" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="80" x="136" y="234.3828">Authorization</text><text fill="#5D5D5D" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="61" x="136" y="251.2813">Code with</text><text fill="#5D5D5D" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="33" x="136" y="268.1797">PKCE</text><polygon fill="#FFFFFF" points="328,210.376,433,210.376,445,244.1729,433,277.9697,328,277.9697,316,244.1729,328,210.376" style="stroke: #B6B6B6; stroke-width: 1.5;"/><text fill="#222222" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="105" x="328" y="224.3828">Is your client app</text><text fill="#222222" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="68" x="328" y="241.2813">legacy with</text><text fill="#222222" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="79" x="328" y="258.1797">authorization</text><text fill="#222222" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="89" x="328" y="275.0781">code support?</text><text fill="#5D5D5D" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="21" x="295" y="241.2813">yes</text><text fill="#5D5D5D" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="16" x="445" y="241.2813">no</text><rect fill="#E6E6E6" height="53.7969" rx="12.5" ry="12.5" style="stroke: #E6E6E6; stroke-width: 1.5;" width="100" x="256" y="287.9697"/><text fill="#5D5D5D" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="80" x="266" y="311.9766">Authorization</text><text fill="#5D5D5D" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="32" x="266" y="328.875">Code</text><rect fill="#E6E6E6" height="53.7969" rx="12.5" ry="12.5" style="stroke: #E6E6E6; stroke-width: 1.5;" width="77" x="416.5" y="287.9697"/><text fill="#5D5D5D" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="57" x="426.5" y="311.9766">Resource</text><text fill="#5D5D5D" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="40" x="426.5" y="328.875">Owner</text><rect fill="#E6E6E6" height="70.6953" rx="12.5" ry="12.5" style="stroke: #E6E6E6; stroke-width: 1.5;" width="86" x="503.5" y="72.0869"/><text fill="#5D5D5D" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="33" x="513.5" y="96.0938">Client</text><text fill="#5D5D5D" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="66" x="513.5" y="112.9922">Credentials</text><text fill="#5D5D5D" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="27" x="513.5" y="129.8906">Flow</text><line style="stroke: #5D5D5D; stroke-width: 1.5;" x1="316" x2="306" y1="244.1729" y2="244.1729"/><line style="stroke: #5D5D5D; stroke-width: 1.5;" x1="306" x2="306" y1="244.1729" y2="287.9697"/><polygon fill="#5D5D5D" points="302,277.9697,306,287.9697,310,277.9697,306,281.9697" style="stroke: #5D5D5D; stroke-width: 1.0;"/><line style="stroke: #5D5D5D; stroke-width: 1.5;" x1="445" x2="455" y1="244.1729" y2="244.1729"/><line style="stroke: #5D5D5D; stroke-width: 1.5;" x1="455" x2="455" y1="244.1729" y2="287.9697"/><polygon fill="#5D5D5D" points="451,277.9697,455,287.9697,459,277.9697,455,281.9697" style="stroke: #5D5D5D; stroke-width: 1.0;"/><line style="stroke: #5D5D5D; stroke-width: 1.5;" x1="205.75" x2="176" y1="158.1299" y2="158.1299"/><line style="stroke: #5D5D5D; stroke-width: 1.5;" x1="176" x2="176" y1="158.1299" y2="210.376"/><polygon fill="#5D5D5D" points="172,200.376,176,210.376,180,200.376,176,204.376" style="stroke: #5D5D5D; stroke-width: 1.0;"/><line style="stroke: #5D5D5D; stroke-width: 1.5;" x1="350.75" x2="380.5" y1="158.1299" y2="158.1299"/><line style="stroke: #5D5D5D; stroke-width: 1.5;" x1="380.5" x2="380.5" y1="158.1299" y2="210.376"/><polygon fill="#5D5D5D" points="376.5,200.376,380.5,210.376,384.5,200.376,380.5,204.376" style="stroke: #5D5D5D; stroke-width: 1.0;"/><line style="stroke: #5D5D5D; stroke-width: 1.5;" x1="113.625" x2="53" y1="88.9854" y2="88.9854"/><line style="stroke: #5D5D5D; stroke-width: 1.5;" x1="53" x2="53" y1="88.9854" y2="115.8838"/><polygon fill="#5D5D5D" points="49,105.8838,53,115.8838,57,105.8838,53,109.8838" style="stroke: #5D5D5D; stroke-width: 1.0;"/><line style="stroke: #5D5D5D; stroke-width: 1.5;" x1="217.625" x2="278.25" y1="88.9854" y2="88.9854"/><line style="stroke: #5D5D5D; stroke-width: 1.5;" x1="278.25" x2="278.25" y1="88.9854" y2="115.8838"/><polygon fill="#5D5D5D" points="274.25,105.8838,278.25,115.8838,282.25,105.8838,278.25,109.8838" style="stroke: #5D5D5D; stroke-width: 1.0;"/><line style="stroke: #5D5D5D; stroke-width: 1.5;" x1="322.5625" x2="165.625" y1="36.7393" y2="36.7393"/><line style="stroke: #5D5D5D; stroke-width: 1.5;" x1="165.625" x2="165.625" y1="36.7393" y2="72.0869"/><polygon fill="#5D5D5D" points="161.625,62.0869,165.625,72.0869,169.625,62.0869,165.625,66.0869" style="stroke: #5D5D5D; stroke-width: 1.0;"/><line style="stroke: #5D5D5D; stroke-width: 1.5;" x1="429.5625" x2="546.5" y1="36.7393" y2="36.7393"/><line style="stroke: #5D5D5D; stroke-width: 1.5;" x1="546.5" x2="546.5" y1="36.7393" y2="72.0869"/><polygon fill="#5D5D5D" points="542.5,62.0869,546.5,72.0869,550.5,62.0869,546.5,66.0869" style="stroke: #5D5D5D; stroke-width: 1.0;"/><!--MD5=[1476b7787f6fef156555d6d0d8275bf1]
+@startuml
+!pragma useVerticalIf on
+
+skinparam shadowing false
+skinparam defaultFontName Tahoma
+
+skinparam usecase {
+     FontName "Tahoma"
+     FontSize 16
+     BorderColor #e6e6e6
+     BackGroundColor #e6e6e6
+     FontColor #5d5d5d
+}
+
+skinparam actor  {
+    FontName "Tahoma"
+    FontSize 16
+    FontColor #5d5d5d
+    BackGroundColor white
+    BorderColor #5d5d5d
+    FontName "Tahoma"
+}
+
+skinparam participant  {
+     FontName "Tahoma"
+     FontSize 16
+     FontColor #white
+     BackGroundColor #5d5d5d
+     BorderColor #5d5d5d
+}
+
+skinparam rectangle  {
+     BorderThickness 1
+     Padding 24
+     FontName "Tahoma"
+     FontSize 16
+     FontStyle bold
+     FontColor #222222
+     BorderColor #b6b6b6
+     BackGroundColor #white
+}
+
+skinparam State  {
+     BorderThickness 1
+     Padding 24
+     FontName "Tahoma"
+     FontSize 16
+     FontColor #222222
+     BorderColor #b6b6b6
+     BackGroundColor #white
+}
+
+skinparam Activity  {
+     FontName "Tahoma"
+     FontSize 14
+     BorderColor #e6e6e6
+     BackGroundColor #e6e6e6
+     FontColor #5d5d5d
+}
+
+skinparam ActivityDiamond  {
+     BorderThickness 1
+     Padding 24
+     FontName "Tahoma"
+     FontSize 14
+     FontColor #222222
+     BorderColor #b6b6b6
+     BackGroundColor #white
+}
+
+skinparam card  {
+     FontName "Tahoma"
+     FontSize 16
+     FontColor #white
+     BackGroundColor #5d5d5d
+     BorderColor #5d5d5d
+}
+
+
+skinparam agent {
+     RoundCorner 40
+     FontName "Tahoma"
+     FontSize 16
+     BorderColor #e6e6e6
+     BackGroundColor #e6e6e6
+     FontColor #5d5d5d
+}
+
+skinparam cloud { 
+     FontName "Tahoma"
+     FontSize 16    
+     FontColor #222222
+     BorderColor #b6b6b6
+     BackGroundColor #white
+}
+
+skinparam Arrow{
+    Color #222222
+    FontColor #222222
+    FontSize 14
+    Thickness 1
+    FontName "Tahoma"
+}
+
+skinparam Line{
+    Color #222222
+    FontColor #222222
+    FontSize 14
+    Thickness 1
+    FontName "Tahoma"
+}
+
+skinparam Sequence {
+    ArrowColor #5d5d5d
+    ArrowFontColor #5d5d5d
+    ArrowFontSize 14
+    ArrowThickness 2
+    ArrowFontName "Tahoma"
+    LineColor #5d5d5d
+    LineFontColor #5d5d5d
+    LineFontSize 14
+    LineThickness 2
+    LineFontName "Tahoma"
+    LifeLineBackgroundColor #5d5d5d
+    LifeLineBorderColor #5d5d5d
+    LifeLineBorderThickness 2
+    GroupBorderColor #5d5d5d
+    GroupBorderThickness 1
+    GroupBackgroundColor white
+    GroupHeaderFontColor #5d5d5d
+}
+
+
+if (Does your\nclient app has\nan end user?) then (yes)
+    if (Is the user\nanonymous?) then (yes)
+        :Client\nCredentials;
+        detach
+    else (no)
+        if (Is your client app\nback-office,\nSPA, mobile\nor native\nwith PKCE support?) then (yes)
+            :Authorization\nCode with\nPKCE;
+            detach
+        else (no)
+            if (Is your client app\nlegacy with\nauthorization\ncode support?) then (yes)
+                :Authorization\nCode;
+                detach
+            else (no)
+                :Resource\nOwner;
+                detach
+            endif
+        endif
+    endif
+else (no)
+    :Client\nCredentials\nFlow;
+    detach
+endif
+@enduml
+
+PlantUML version 1.2019.11(Sun Sep 22 11:02:15 BST 2019)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) Client VM
+Java Version: 1.8.0_271-b09
+Operating System: Windows 10
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

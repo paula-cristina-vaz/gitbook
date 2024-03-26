@@ -1,0 +1,26 @@
+@startuml
+!include diagram-config.puml!tutorial
+
+actor "Customer" as customer
+participant "Client\nDevice" as client
+participant "Farfetch\nSTS" as farfetch
+
+group Device Verification Code Request
+    client -> farfetch: Requets Device Verification Code with Client Id\n+ scopes ""openid profile offline_access""
+    farfetch -> client: Device Code\n+User Code\n+Verification URI Response
+end
+group User Code Validation
+    client -> customer: Sends User Code + Verification URI.
+    customer -> customer: Opens the Verification URI\nand enters the User Code
+    farfetch -> customer: Validates the User Code
+end    
+group Token Request
+loop until User Code validation is complete
+    client -> farfetch: Polls with Device Code + Client Id
+end
+    
+    farfetch -> client: Access Token + Optional Refresh Token Response
+
+end
+
+@enduml

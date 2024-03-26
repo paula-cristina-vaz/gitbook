@@ -1,0 +1,11 @@
+@startuml
+!include diagram-config.puml!tutorial
+
+actor "Customer" as user
+participant "Client\nApplication" as client
+participant "Farfetch\nSTS" as farfetch
+
+user -> client: Request logout\nfrom all devices
+client -> farfetch: Requests the delition of all\nthe user tokens with User Id.
+farfetch -> client: ""204 OK""
+@enduml

@@ -1,0 +1,26 @@
+@startuml
+!include diagram-config.puml!tutorial
+
+actor "Customer" as user
+participant "Client\nApplication" as client
+participant "Resource A" as resourcea
+participant "Resource B" as resourceb
+participant "Farfetch\nSTS" as farfetch
+
+group Access Token Request
+    user -> client: Makes request
+    client -> farfetch: Requests an access token with\nthe customer and client credentials\nusing the pre-defined authentication flow.
+    farfetch -> client: Access token response (""subject_token"").
+    client -> resourcea: Makes request\nwith the ""subject_token"".
+    resourcea -> farfetch: Requests an access token\nwith the client credentials\nusing the client credentials flow.
+    farfetch -> resourcea: Access token response (""actor_token"").
+end
+group Exchange Token
+    resourcea -> farfetch: Requests a new scoped token\nwith the ""client_id"",\nthe ""subject_token"" and\nthe ""actor_token"".
+    farfetch -> farfetch: Validates\nthe credentials.
+    farfetch -> resourcea: New scoped token Response.
+end
+group Act on behalf of Customer
+    resourcea -> resourceb: Makes requests on\nbehalf of the Customer\nwith the new scoped token.
+end
+@enduml

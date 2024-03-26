@@ -1,0 +1,20 @@
+@startuml
+!include diagram-config.puml!tutorial
+
+actor "Customer" as customer
+participant "Client\nApp" as partner
+participant "Farfetch\nSTS" as farfetch
+participant "/wishlists" as resource
+
+group Access Token request
+    customer -> partner: Clicks in login link
+    partner -> farfetch: Requests Access Token to ""/token""\n""grant_type=password""
+    farfetch -> farfetch: Validates\nuser and client\ncredentials
+    farfetch --> partner: Access Token Response
+end
+group Protected resource access
+    partner -> resource: Requests Resources (""Authorization: Bearer <access token>"")
+    resource --> partner: Requested Resources
+end
+@enduml
+

@@ -1,0 +1,27 @@
+@startuml
+!include diagram-config.puml!tutorial
+
+participant "Client\nApp" as partner
+participant "Farfetch\nSTS" as farfetch
+participant "/wishlists" as resource
+
+group Protected resource access
+
+    ...<size:16><b>Request resources until the access token expires</b></size>...
+
+    partner -> resource: Requests Resources with expired access ""token""\n(""Authorization: Bearer <access token expired>"")
+    resource --> partner: ""401 Unauthorized"" (Error: Invalid token.)
+end
+group Access token request
+    partner -> farfetch: Requests Access Token with\nclient id and secret and ""grant_type=refresh_token""\n""refresh_token=4b96...2099b8""
+    farfetch -> farfetch: Validates\nclient id and secret\nand\n""refresh_token""
+    farfetch --> partner: Access and Refresh Token Response
+end
+group Protected resource access
+    partner -> resource: Requests Resources (""Authorization: Bearer <access token>"")
+    resource --> partner: Requested Resources
+end
+@enduml
+
+
+

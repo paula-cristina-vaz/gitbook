@@ -1,0 +1,31 @@
+@startuml
+!include diagram-config.puml!tutorial
+
+actor "Customer" as customer
+participant "Client\nApp" as partner
+participant "Farfetch\nSTS" as farfetch
+participant "/wishlists" as resource
+
+group PKCE generation
+    customer -> partner: Clicks in login link
+    partner -> partner: Creates code verifier
+    partner -> partner: Generates code challenge
+end
+group Authorization Code request
+    partner -> farfetch: Requests Authorization Code with ""response_type=code"" <back:#e6e6e6>""id_token""</back>\n+ transformed code verifier (code_challenge)\n+ transformation method\n+ <back:#e6e6e6>openid scope</back> + ""offline_access""
+    farfetch --> customer: ""302 Found"" redirect to authentication prompt
+    customer -> farfetch: User authenticates with\nusername, password, and consent
+    farfetch -> farfetch: Validates\nResource Owner\ncredentials
+    farfetch --> partner: Authorization Code Response
+    partner -> partner: Validates code challenge
+end
+group Access Token request
+    partner -> farfetch: Requests Access Token with\nClient Credentials, Authorization Code\nand code verifier
+    farfetch -> farfetch: Validates\nClient Credentials,\nAuthorization Code,\nand code verifier
+    farfetch --> partner: Access Token Response (and optionally Refresh Token)\n+ <back:#e6e6e6><color #000>""id_token""</color></back>
+end
+group Protected resource access
+    partner -> resource: Requests Resources (""Authorization: Bearer <access token>"")
+    resource --> partner: Requested Resources
+end
+@enduml

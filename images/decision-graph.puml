@@ -1,0 +1,28 @@
+@startuml
+!pragma useVerticalIf on
+
+!include diagram-config.puml!tutorial
+
+if (Does your\nclient app has\nan end user?) then (yes)
+    if (Is the user\nanonymous?) then (yes)
+        :Client\nCredentials;
+        detach
+    else (no)
+        if (Is your client app\nback-office,\nSPA, mobile\nor native\nwith PKCE support?) then (yes)
+            :Authorization\nCode with\nPKCE;
+            detach
+        else (no)
+            if (Is your client app\nlegacy with\nauthorization\ncode support?) then (yes)
+                :Authorization\nCode;
+                detach
+            else (no)
+                :Resource\nOwner;
+                detach
+            endif
+        endif
+    endif
+else (no)
+    :Client\nCredentials\nFlow;
+    detach
+endif
+@enduml

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="811px" preserveAspectRatio="none" style="width:767px;height:811px;background:#FFFFFF;" version="1.1" viewBox="0 0 767 811" width="767px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="297.4043" style="stroke:#5D5D5D;stroke-width:1.0;" width="681" x="10" y="102.125"/><rect fill="none" height="197.9668" style="stroke:#5D5D5D;stroke-width:1.0;" width="461.5" x="300" y="413.5293"/><rect fill="none" height="84.5195" style="stroke:#5D5D5D;stroke-width:1.0;" width="310" x="300" y="625.4961"/><line style="stroke:#5D5D5D;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="57" x2="57" y1="85.125" y2="727.0156"/><line style="stroke:#5D5D5D;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="174" x2="174" y1="85.125" y2="727.0156"/><line style="stroke:#5D5D5D;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="358" x2="358" y1="85.125" y2="727.0156"/><line style="stroke:#5D5D5D;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="552" x2="552" y1="85.125" y2="727.0156"/><line style="stroke:#5D5D5D;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="645" x2="645" y1="85.125" y2="727.0156"/><text fill="#5D5D5D" font-family="&quot;Tahoma&quot;" font-size="16" lengthAdjust="spacing" textLength="68" x="20" y="81.6094">Customer</text><ellipse cx="57" cy="13.5" fill="#FFFFFF" rx="8" ry="8" style="stroke:#5D5D5D;stroke-width:0.5;"/><path d="M57,21.5 L57,48.5 M44,29.5 L70,29.5 M57,48.5 L44,63.5 M57,48.5 L70,63.5 " fill="none" style="stroke:#5D5D5D;stroke-width:0.5;"/><text fill="#5D5D5D" font-family="&quot;Tahoma&quot;" font-size="16" lengthAdjust="spacing" textLength="68" x="20" y="742.625">Customer</text><ellipse cx="57" cy="754.6406" fill="#FFFFFF" rx="8" ry="8" style="stroke:#5D5D5D;stroke-width:0.5;"/><path d="M57,762.6406 L57,789.6406 M44,770.6406 L70,770.6406 M57,789.6406 L44,804.6406 M57,789.6406 L70,804.6406 " fill="none" style="stroke:#5D5D5D;stroke-width:0.5;"/><rect fill="#5D5D5D" height="54.25" rx="2.5" ry="2.5" style="stroke:#5D5D5D;stroke-width:0.5;" width="92" x="128" y="29.875"/><text fill="#FFFFFF" font-family="&quot;Tahoma&quot;" font-size="16" lengthAdjust="spacing" textLength="40" x="154" y="53.4844">Client</text><text fill="#FFFFFF" font-family="&quot;Tahoma&quot;" font-size="16" lengthAdjust="spacing" textLength="78" x="135" y="73.6094">Application</text><rect fill="#5D5D5D" height="54.25" rx="2.5" ry="2.5" style="stroke:#5D5D5D;stroke-width:0.5;" width="92" x="128" y="726.0156"/><text fill="#FFFFFF" font-family="&quot;Tahoma&quot;" font-size="16" lengthAdjust="spacing" textLength="40" x="154" y="749.625">Client</text><text fill="#FFFFFF" font-family="&quot;Tahoma&quot;" font-size="16" lengthAdjust="spacing" textLength="78" x="135" y="769.75">Application</text><rect fill="#5D5D5D" height="34.125" rx="2.5" ry="2.5" style="stroke:#5D5D5D;stroke-width:0.5;" width="96" x="310" y="50"/><text fill="#FFFFFF" font-family="&quot;Tahoma&quot;" font-size="16" lengthAdjust="spacing" textLength="82" x="317" y="73.6094">Resource A</text><rect fill="#5D5D5D" height="34.125" rx="2.5" ry="2.5" style="stroke:#5D5D5D;stroke-width:0.5;" width="96" x="310" y="726.0156"/><text fill="#FFFFFF" font-family="&quot;Tahoma&quot;" font-size="16" lengthAdjust="spacing" textLength="82" x="317" y="749.625">Resource A</text><rect fill="#5D5D5D" height="34.125" rx="2.5" ry="2.5" style="stroke:#5D5D5D;stroke-width:0.5;" width="96" x="504" y="50"/><text fill="#FFFFFF" font-family="&quot;Tahoma&quot;" font-size="16" lengthAdjust="spacing" textLength="82" x="511" y="73.6094">Resource B</text><rect fill="#5D5D5D" height="34.125" rx="2.5" ry="2.5" style="stroke:#5D5D5D;stroke-width:0.5;" width="96" x="504" y="726.0156"/><text fill="#FFFFFF" font-family="&quot;Tahoma&quot;" font-size="16" lengthAdjust="spacing" textLength="82" x="511" y="749.625">Resource B</text><rect fill="#5D5D5D" height="54.25" rx="2.5" ry="2.5" style="stroke:#5D5D5D;stroke-width:0.5;" width="71" x="610" y="29.875"/><text fill="#FFFFFF" font-family="&quot;Tahoma&quot;" font-size="16" lengthAdjust="spacing" textLength="57" x="617" y="53.4844">Farfetch</text><text fill="#FFFFFF" font-family="&quot;Tahoma&quot;" font-size="16" lengthAdjust="spacing" textLength="31" x="630" y="73.6094">STS</text><rect fill="#5D5D5D" height="54.25" rx="2.5" ry="2.5" style="stroke:#5D5D5D;stroke-width:0.5;" width="71" x="610" y="726.0156"/><text fill="#FFFFFF" font-family="&quot;Tahoma&quot;" font-size="16" lengthAdjust="spacing" textLength="57" x="617" y="749.625">Farfetch</text><text fill="#FFFFFF" font-family="&quot;Tahoma&quot;" font-size="16" lengthAdjust="spacing" textLength="31" x="630" y="769.75">STS</text><path d="M10,102.125 L201,102.125 L201,109.8164 L191,119.8164 L10,119.8164 L10,102.125 " fill="#FFFFFF" style="stroke:#5D5D5D;stroke-width:1.5;"/><rect fill="none" height="297.4043" style="stroke:#5D5D5D;stroke-width:1.0;" width="681" x="10" y="102.125"/><text fill="#5D5D5D" font-family="Tahoma" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="146" x="25" y="116.1313">Access Token Request</text><polygon fill="#5D5D5D" points="162,139.4258,172,143.4258,162,147.4258,166,143.4258" style="stroke:#5D5D5D;stroke-width:1.0;"/><line style="stroke:#5D5D5D;stroke-width:2.0;" x1="57" x2="168" y1="143.4258" y2="143.4258"/><text fill="#5D5D5D" font-family="&quot;Tahoma&quot;" font-size="14" lengthAdjust="spacing" textLength="93" x="64" y="138.3496">Makes request</text><polygon fill="#5D5D5D" points="633.5,206.2539,643.5,210.2539,633.5,214.2539,637.5,210.2539" style="stroke:#5D5D5D;stroke-width:1.0;"/><line style="stroke:#5D5D5D;stroke-width:2.0;" x1="174" x2="639.5" y1="210.2539" y2="210.2539"/><text fill="#5D5D5D" font-family="&quot;Tahoma&quot;" font-size="14" lengthAdjust="spacing" textLength="195" x="181" y="169.959">Requests an access token with</text><text fill="#5D5D5D" font-family="&quot;Tahoma&quot;" font-size="14" lengthAdjust="spacing" textLength="220" x="181" y="187.5684">the customer and client credentials</text><text fill="#5D5D5D" font-family="&quot;Tahoma&quot;" font-size="14" lengthAdjust="spacing" textLength="260" x="181" y="205.1777">using the pre-defined authentication flow.</text><polygon fill="#5D5D5D" points="185,238.5332,175,242.5332,185,246.5332,181,242.5332" style="stroke:#5D5D5D;stroke-width:1.0;"/><line style="stroke:#5D5D5D;stroke-width:2.0;" x1="179" x2="644.5" y1="242.5332" y2="242.5332"/><text fill="#5D5D5D" font-family="&quot;Tahoma&quot;" font-size="14" lengthAdjust="spacing" textLength="156" x="191" y="237.457">Access token response (</text><text fill="#5D5D5D" font-family="monospace" font-size="14" lengthAdjust="spacing" textLength="104" x="347" y="236.3291">subject_token</text><text fill="#5D5D5D" font-family="&quot;Tahoma&quot;" font-size="14" lengthAdjust="spacing" textLength="9" x="451" y="237.457">).</text><polygon fill="#5D5D5D" points="346,288.4219,356,292.4219,346,296.4219,350,292.4219" style="stroke:#5D5D5D;stroke-width:1.0;"/><line style="stroke:#5D5D5D;stroke-width:2.0;" x1="174" x2="352" y1="292.4219" y2="292.4219"/><text fill="#5D5D5D" font-family="&quot;Tahoma&quot;" font-size="14" lengthAdjust="spacing" textLength="93" x="181" y="269.0664">Makes request</text><text fill="#5D5D5D" font-family="&quot;Tahoma&quot;" font-size="14" lengthAdjust="spacing" textLength="48" x="181" y="287.3457">with the</text><text fill="#5D5D5D" font-family="monospace" font-size="14" lengthAdjust="spacing" textLength="104" x="233" y="286.2178">subject_token</text><text fill="#5D5D5D" font-family="&quot;Tahoma&quot;" font-size="14" lengthAdjust="spacing" textLength="4" x="337" y="287.3457">.</text><polygon fill="#5D5D5D" points="633.5,355.25,643.5,359.25,633.5,363.25,637.5,359.25" style="stroke:#5D5D5D;stroke-width:1.0;"/><line style="stroke:#5D5D5D;stroke-width:2.0;" x1="358" x2="639.5" y1="359.25" y2="359.25"/><text fill="#5D5D5D" font-family="&quot;Tahoma&quot;" font-size="14" lengthAdjust="spacing" textLength="167" x="365" y="318.9551">Requests an access token</text><text fill="#5D5D5D" font-family="&quot;Tahoma&quot;" font-size="14" lengthAdjust="spacing" textLength="158" x="365" y="336.5645">with the client credentials</text><text fill="#5D5D5D" font-family="&quot;Tahoma&quot;" font-size="14" lengthAdjust="spacing" textLength="200" x="365" y="354.1738">using the client credentials flow.</text><polygon fill="#5D5D5D" points="369,387.5293,359,391.5293,369,395.5293,365,391.5293" style="stroke:#5D5D5D;stroke-width:1.0;"/><line style="stroke:#5D5D5D;stroke-width:2.0;" x1="363" x2="644.5" y1="391.5293" y2="391.5293"/><text fill="#5D5D5D" font-family="&quot;Tahoma&quot;" font-size="14" lengthAdjust="spacing" textLength="156" x="375" y="386.4531">Access token response (</text><text fill="#5D5D5D" font-family="monospace" font-size="14" lengthAdjust="spacing" textLength="88" x="531" y="385.3252">actor_token</text><text fill="#5D5D5D" font-family="&quot;Tahoma&quot;" font-size="14" lengthAdjust="spacing" textLength="9" x="619" y="386.4531">).</text><path d="M300,413.5293 L448,413.5293 L448,421.2207 L438,431.2207 L300,431.2207 L300,413.5293 " fill="#FFFFFF" style="stroke:#5D5D5D;stroke-width:1.5;"/><rect fill="none" height="197.9668" style="stroke:#5D5D5D;stroke-width:1.0;" width="461.5" x="300" y="413.5293"/><text fill="#5D5D5D" font-family="Tahoma" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="103" x="315" y="427.5356">Exchange Token</text><polygon fill="#5D5D5D" points="633.5,505.668,643.5,509.668,633.5,513.668,637.5,509.668" style="stroke:#5D5D5D;stroke-width:1.0;"/><line style="stroke:#5D5D5D;stroke-width:2.0;" x1="358" x2="639.5" y1="509.668" y2="509.668"/><text fill="#5D5D5D" font-family="&quot;Tahoma&quot;" font-size="14" lengthAdjust="spacing" textLength="190" x="365" y="449.7539">Requests a new scoped token</text><text fill="#5D5D5D" font-family="&quot;Tahoma&quot;" font-size="14" lengthAdjust="spacing" textLength="48" x="365" y="468.0332">with the</text><text fill="#5D5D5D" font-family="monospace" font-size="14" lengthAdjust="spacing" textLength="72" x="417" y="466.9053">client_id</text><text fill="#5D5D5D" font-family="&quot;Tahoma&quot;" font-size="14" lengthAdjust="spacing" textLength="4" x="489" y="468.0332">,</text><text fill="#5D5D5D" font-family="&quot;Tahoma&quot;" font-size="14" lengthAdjust="spacing" textLength="20" x="365" y="486.3125">the</text><text fill="#5D5D5D" font-family="monospace" font-size="14" lengthAdjust="spacing" textLength="104" x="389" y="485.1846">subject_token</text><text fill="#5D5D5D" font-family="&quot;Tahoma&quot;" font-size="14" lengthAdjust="spacing" textLength="24" x="497" y="486.3125">and</text><text fill="#5D5D5D" font-family="&quot;Tahoma&quot;" font-size="14" lengthAdjust="spacing" textLength="20" x="365" y="504.5918">the</text><text fill="#5D5D5D" font-family="monospace" font-size="14" lengthAdjust="spacing" textLength="88" x="389" y="503.4639">actor_token</text><text fill="#5D5D5D" font-family="&quot;Tahoma&quot;" font-size="14" lengthAdjust="spacing" textLength="4" x="477" y="504.5918">.</text><line style="stroke:#5D5D5D;stroke-width:2.0;" x1="645.5" x2="687.5" y1="558.8867" y2="558.8867"/><line style="stroke:#5D5D5D;stroke-width:2.0;" x1="687.5" x2="687.5" y1="558.8867" y2="571.8867"/><line style="stroke:#5D5D5D;stroke-width:2.0;" x1="646.5" x2="687.5" y1="571.8867" y2="571.8867"/><polygon fill="#5D5D5D" points="656.5,567.8867,646.5,571.8867,656.5,575.8867,652.5,571.8867" style="stroke:#5D5D5D;stroke-width:1.0;"/><text fill="#5D5D5D" font-family="&quot;Tahoma&quot;" font-size="14" lengthAdjust="spacing" textLength="58" x="652.5" y="536.2012">Validates</text><text fill="#5D5D5D" font-family="&quot;Tahoma&quot;" font-size="14" lengthAdjust="spacing" textLength="97" x="652.5" y="553.8105">the credentials.</text><polygon fill="#5D5D5D" points="369,599.4961,359,603.4961,369,607.4961,365,603.4961" style="stroke:#5D5D5D;stroke-width:1.0;"/><line style="stroke:#5D5D5D;stroke-width:2.0;" x1="363" x2="644.5" y1="603.4961" y2="603.4961"/><text fill="#5D5D5D" font-family="&quot;Tahoma&quot;" font-size="14" lengthAdjust="spacing" textLength="187" x="375" y="598.4199">New scoped token Response.</text><path d="M300,625.4961 L515,625.4961 L515,633.1875 L505,643.1875 L300,643.1875 L300,625.4961 " fill="#FFFFFF" style="stroke:#5D5D5D;stroke-width:1.5;"/><rect fill="none" height="84.5195" style="stroke:#5D5D5D;stroke-width:1.0;" width="310" x="300" y="625.4961"/><text fill="#5D5D5D" font-family="Tahoma" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="170" x="315" y="639.5024">Act on behalf of Customer</text><polygon fill="#5D5D5D" points="540,698.0156,550,702.0156,540,706.0156,544,702.0156" style="stroke:#5D5D5D;stroke-width:1.0;"/><line style="stroke:#5D5D5D;stroke-width:2.0;" x1="358" x2="546" y1="702.0156" y2="702.0156"/><text fill="#5D5D5D" font-family="&quot;Tahoma&quot;" font-size="14" lengthAdjust="spacing" textLength="120" x="365" y="661.7207">Makes requests on</text><text fill="#5D5D5D" font-family="&quot;Tahoma&quot;" font-size="14" lengthAdjust="spacing" textLength="144" x="365" y="679.3301">behalf of the Customer</text><text fill="#5D5D5D" font-family="&quot;Tahoma&quot;" font-size="14" lengthAdjust="spacing" textLength="170" x="365" y="696.9395">with the new scoped token.</text><!--MD5=[be7f1bc5e2b7f21d9626d571875eb2c2]
+@startuml
+!include diagram-config.puml!tutorial
+
+actor "Customer" as user
+participant "Client\nApplication" as client
+participant "Resource A" as resourcea
+participant "Resource B" as resourceb
+participant "Farfetch\nSTS" as farfetch
+
+group Access Token Request
+    user -> client: Makes request
+    client -> farfetch: Requests an access token with\nthe customer and client credentials\nusing the pre-defined authentication flow.
+    farfetch -> client: Access token response (""subject_token"").
+    client -> resourcea: Makes request\nwith the ""subject_token"".
+    resourcea -> farfetch: Requests an access token\nwith the client credentials\nusing the client credentials flow.
+    farfetch -> resourcea: Access token response (""actor_token"").
+end
+group Exchange Token
+    resourcea -> farfetch: Requests a new scoped token\nwith the ""client_id"",\nthe ""subject_token"" and\nthe ""actor_token"".
+    farfetch -> farfetch: Validates\nthe credentials.
+    farfetch -> resourcea: New scoped token Response.
+end
+group Act on behalf of Customer
+    resourcea -> resourceb: Makes requests on\nbehalf of the Customer\nwith the new scoped token.
+end
+@enduml
+
+@startuml
+skinparam shadowing false
+skinparam defaultFontName Tahoma
+
+skinparam usecase {
+     FontName "Tahoma"
+     FontSize 16
+     BorderColor #e6e6e6
+     BackGroundColor #e6e6e6
+     FontColor #5d5d5d
+}
+
+skinparam actor  {
+    FontName "Tahoma"
+    FontSize 16
+    FontColor #5d5d5d
+    BackGroundColor white
+    BorderColor #5d5d5d
+    FontName "Tahoma"
+}
+
+skinparam participant  {
+     FontName "Tahoma"
+     FontSize 16
+     FontColor #white
+     BackGroundColor #5d5d5d
+     BorderColor #5d5d5d
+}
+
+skinparam rectangle  {
+     BorderThickness 1
+     Padding 24
+     FontName "Tahoma"
+     FontSize 16
+     FontColor #222222
+     BorderColor #b6b6b6
+     BackGroundColor #white
+}
+
+skinparam State  {
+     BorderThickness 1
+     Padding 24
+     FontName "Tahoma"
+     FontSize 16
+     FontColor #222222
+     BorderColor #b6b6b6
+     BackGroundColor #white
+}
+
+skinparam Activity  {
+     FontName "Tahoma"
+     FontSize 14
+     BorderColor #e6e6e6
+     BackGroundColor #e6e6e6
+     FontColor #5d5d5d
+}
+
+skinparam ActivityDiamond  {
+     BorderThickness 1
+     Padding 24
+     FontName "Tahoma"
+     FontSize 14
+     FontColor #222222
+     BorderColor #b6b6b6
+     BackGroundColor #white
+}
+
+skinparam card  {
+     FontName "Tahoma"
+     FontSize 16
+     FontColor #white
+     BackGroundColor #5d5d5d
+     BorderColor #5d5d5d
+}
+
+
+skinparam agent {
+     RoundCorner 40
+     FontName "Tahoma"
+     FontSize 16
+     BorderColor #e6e6e6
+     BackGroundColor #e6e6e6
+     FontColor #5d5d5d
+}
+
+skinparam cloud { 
+     FontName "Tahoma"
+     FontSize 16    
+     FontColor #222222
+     BorderColor #b6b6b6
+     BackGroundColor #white
+}
+
+skinparam Arrow{
+    Color #222222
+    FontColor #222222
+    FontSize 14
+    Thickness 1
+    FontName "Tahoma"
+}
+
+skinparam Line{
+    Color #222222
+    FontColor #222222
+    FontSize 14
+    Thickness 1
+    FontName "Tahoma"
+}
+
+skinparam Sequence {
+    ArrowColor #5d5d5d
+    ArrowFontColor #5d5d5d
+    ArrowFontSize 14
+    ArrowThickness 2
+    ArrowFontName "Tahoma"
+    LineColor #5d5d5d
+    LineFontColor #5d5d5d
+    LineFontSize 14
+    LineThickness 2
+    LineFontName "Tahoma"
+    LifeLineBackgroundColor #5d5d5d
+    LifeLineBorderColor #5d5d5d
+    LifeLineBorderThickness 2
+    GroupBorderColor #5d5d5d
+    GroupBorderThickness 1
+    GroupBackgroundColor white
+    GroupHeaderFontColor #5d5d5d
+}
+
+
+actor "Customer" as user
+participant "Client\nApplication" as client
+participant "Resource A" as resourcea
+participant "Resource B" as resourceb
+participant "Farfetch\nSTS" as farfetch
+
+group Access Token Request
+    user -> client: Makes request
+    client -> farfetch: Requests an access token with\nthe customer and client credentials\nusing the pre-defined authentication flow.
+    farfetch -> client: Access token response (""subject_token"").
+    client -> resourcea: Makes request\nwith the ""subject_token"".
+    resourcea -> farfetch: Requests an access token\nwith the client credentials\nusing the client credentials flow.
+    farfetch -> resourcea: Access token response (""actor_token"").
+end
+group Exchange Token
+    resourcea -> farfetch: Requests a new scoped token\nwith the ""client_id"",\nthe ""subject_token"" and\nthe ""actor_token"".
+    farfetch -> farfetch: Validates\nthe credentials.
+    farfetch -> resourcea: New scoped token Response.
+end
+group Act on behalf of Customer
+    resourcea -> resourceb: Makes requests on\nbehalf of the Customer\nwith the new scoped token.
+end
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 18:01:30 BST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

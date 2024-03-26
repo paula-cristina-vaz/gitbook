@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="628px" preserveAspectRatio="none" style="width:695px;height:628px;" version="1.1" viewBox="0 0 695 628" width="695px" zoomAndPan="magnify"><defs><filter height="1" id="b1jwsyrvvqafh80" width="1" x="0" y="0"><feFlood flood-color="#E6E6E6" result="flood"/><feComposite in="SourceGraphic" in2="flood" operator="over"/></filter></defs><g><rect fill="#FFFFFF" height="324.377" style="stroke: #5D5D5D; stroke-width: 1.0;" width="561" x="13" y="102.3125"/><rect fill="#FFFFFF" height="80.8691" style="stroke: #5D5D5D; stroke-width: 1.0;" width="535.5" x="149" y="440.6895"/><line style="stroke: #5D5D5D; stroke-width: 2.0; stroke-dasharray: 5.0,5.0;" x1="60" x2="60" y1="85.3125" y2="538.5586"/><line style="stroke: #5D5D5D; stroke-width: 2.0; stroke-dasharray: 5.0,5.0;" x1="186" x2="186" y1="85.3125" y2="538.5586"/><line style="stroke: #5D5D5D; stroke-width: 2.0; stroke-dasharray: 5.0,5.0;" x1="454" x2="454" y1="85.3125" y2="538.5586"/><line style="stroke: #5D5D5D; stroke-width: 2.0; stroke-dasharray: 5.0,5.0;" x1="634.5" x2="634.5" y1="85.3125" y2="538.5586"/><text fill="#5D5D5D" font-family="Tahoma" font-size="16" lengthAdjust="spacingAndGlyphs" textLength="68" x="23" y="82.0078">Customer</text><ellipse cx="60" cy="13" fill="#FFFFFF" rx="8" ry="8" style="stroke: #5D5D5D; stroke-width: 2.0;"/><path d="M60,21 L60,48 M47,29 L73,29 M60,48 L47,63 M60,48 L73,63 " fill="none" style="stroke: #5D5D5D; stroke-width: 2.0;"/><text fill="#5D5D5D" font-family="Tahoma" font-size="16" lengthAdjust="spacingAndGlyphs" textLength="68" x="23" y="553.5664">Customer</text><ellipse cx="60" cy="566.8711" fill="#FFFFFF" rx="8" ry="8" style="stroke: #5D5D5D; stroke-width: 2.0;"/><path d="M60,574.8711 L60,601.8711 M47,582.8711 L73,582.8711 M60,601.8711 L47,616.8711 M60,601.8711 L73,616.8711 " fill="none" style="stroke: #5D5D5D; stroke-width: 2.0;"/><rect fill="#5D5D5D" height="52.625" style="stroke: #5D5D5D; stroke-width: 1.5;" width="54" x="159" y="31.6875"/><text fill="#FFFFFF" font-family="Tahoma" font-size="16" lengthAdjust="spacingAndGlyphs" textLength="40" x="166" y="54.6953">Client</text><text fill="#FFFFFF" font-family="Tahoma" font-size="16" lengthAdjust="spacingAndGlyphs" textLength="29" x="171.5" y="74.0078">App</text><rect fill="#5D5D5D" height="52.625" style="stroke: #5D5D5D; stroke-width: 1.5;" width="54" x="159" y="537.5586"/><text fill="#FFFFFF" font-family="Tahoma" font-size="16" lengthAdjust="spacingAndGlyphs" textLength="40" x="166" y="560.5664">Client</text><text fill="#FFFFFF" font-family="Tahoma" font-size="16" lengthAdjust="spacingAndGlyphs" textLength="29" x="171.5" y="579.8789">App</text><rect fill="#5D5D5D" height="52.625" style="stroke: #5D5D5D; stroke-width: 1.5;" width="70" x="419" y="31.6875"/><text fill="#FFFFFF" font-family="Tahoma" font-size="16" lengthAdjust="spacingAndGlyphs" textLength="56" x="426" y="54.6953">Farfetch</text><text fill="#FFFFFF" font-family="Tahoma" font-size="16" lengthAdjust="spacingAndGlyphs" textLength="28" x="440" y="74.0078">STS</text><rect fill="#5D5D5D" height="52.625" style="stroke: #5D5D5D; stroke-width: 1.5;" width="70" x="419" y="537.5586"/><text fill="#FFFFFF" font-family="Tahoma" font-size="16" lengthAdjust="spacingAndGlyphs" textLength="56" x="426" y="560.5664">Farfetch</text><text fill="#FFFFFF" font-family="Tahoma" font-size="16" lengthAdjust="spacingAndGlyphs" textLength="28" x="440" y="579.8789">STS</text><rect fill="#5D5D5D" height="33.3125" style="stroke: #5D5D5D; stroke-width: 1.5;" width="79" x="595.5" y="51"/><text fill="#FFFFFF" font-family="Tahoma" font-size="16" lengthAdjust="spacingAndGlyphs" textLength="65" x="602.5" y="74.0078">/wishlists</text><rect fill="#5D5D5D" height="33.3125" style="stroke: #5D5D5D; stroke-width: 1.5;" width="79" x="595.5" y="537.5586"/><text fill="#FFFFFF" font-family="Tahoma" font-size="16" lengthAdjust="spacingAndGlyphs" textLength="65" x="602.5" y="560.5664">/wishlists</text><path d="M13,102.3125 L201,102.3125 L201,109.3125 L191,119.3125 L13,119.3125 L13,102.3125 " fill="#FFFFFF" style="stroke: #5D5D5D; stroke-width: 1.0;"/><rect fill="none" height="324.377" style="stroke: #5D5D5D; stroke-width: 1.0;" width="561" x="13" y="102.3125"/><text fill="#5D5D5D" font-family="Tahoma" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="143" x="28" y="116.3188">Access Token request</text><polygon fill="#5D5D5D" points="174,138.9023,184,142.9023,174,146.9023,178,142.9023" style="stroke: #5D5D5D; stroke-width: 1.0;"/><line style="stroke: #5D5D5D; stroke-width: 2.0;" x1="60" x2="180" y1="142.9023" y2="142.9023"/><text fill="#5D5D5D" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="102" x="67" y="138.0107">Clicks in login link</text><polygon fill="#5D5D5D" points="442,207.7402,452,211.7402,442,215.7402,446,211.7402" style="stroke: #5D5D5D; stroke-width: 1.0;"/><line style="stroke: #5D5D5D; stroke-width: 2.0;" x1="186" x2="448" y1="211.7402" y2="211.7402"/><text fill="#5D5D5D" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="160" x="193" y="170.29">Requests Access Token to</text><text fill="#5D5D5D" font-family="monospace" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="80" x="357" y="168.9775">/authorize</text><text fill="#5D5D5D" font-family="monospace" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="144" x="193" y="187.2568">reponse_type=token</text><text fill="#5D5D5D" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="341" y="188.5693"/><text fill="#5D5D5D" filter="url(#b1jwsyrvvqafh80)" font-family="monospace" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="64" x="341" y="187.2568">id_token</text><text fill="#5D5D5D" filter="url(#b1jwsyrvvqafh80)" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="10" x="193" y="206.8486">+</text><text fill="#5D5D5D" filter="url(#b1jwsyrvvqafh80)" font-family="monospace" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="48" x="207" y="205.5361">openid</text><text fill="#5D5D5D" filter="url(#b1jwsyrvvqafh80)" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="36" x="259" y="206.8486">scope</text><polygon fill="#5D5D5D" points="71,240.0195,61,244.0195,71,248.0195,67,244.0195" style="stroke: #5D5D5D; stroke-width: 1.0;"/><line style="stroke: #5D5D5D; stroke-width: 2.0; stroke-dasharray: 2.0,2.0;" x1="65" x2="453" y1="244.0195" y2="244.0195"/><text fill="#5D5D5D" font-family="monospace" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="72" x="77" y="237.8154">302 Found</text><text fill="#5D5D5D" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="204" x="153" y="239.1279">redirect to authentication prompt</text><polygon fill="#5D5D5D" points="442,287.8164,452,291.8164,442,295.8164,446,291.8164" style="stroke: #5D5D5D; stroke-width: 1.0;"/><line style="stroke: #5D5D5D; stroke-width: 2.0;" x1="60" x2="448" y1="291.8164" y2="291.8164"/><text fill="#5D5D5D" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="142" x="67" y="270.0264">User authenticates with</text><text fill="#5D5D5D" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="210" x="67" y="286.9248">username, password, and consent</text><line style="stroke: #5D5D5D; stroke-width: 2.0;" x1="454" x2="496" y1="356.5117" y2="356.5117"/><line style="stroke: #5D5D5D; stroke-width: 2.0;" x1="496" x2="496" y1="356.5117" y2="369.5117"/><line style="stroke: #5D5D5D; stroke-width: 2.0;" x1="455" x2="496" y1="369.5117" y2="369.5117"/><polygon fill="#5D5D5D" points="465,365.5117,455,369.5117,465,373.5117,461,369.5117" style="stroke: #5D5D5D; stroke-width: 1.0;"/><text fill="#5D5D5D" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="52" x="461" y="317.8232">Validates</text><text fill="#5D5D5D" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="101" x="461" y="334.7217">Resource Owner</text><text fill="#5D5D5D" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="64" x="461" y="351.6201">credentials</text><polygon fill="#5D5D5D" points="197,414.6895,187,418.6895,197,422.6895,193,418.6895" style="stroke: #5D5D5D; stroke-width: 1.0;"/><line style="stroke: #5D5D5D; stroke-width: 2.0; stroke-dasharray: 2.0,2.0;" x1="191" x2="453" y1="418.6895" y2="418.6895"/><text fill="#5D5D5D" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="146" x="203" y="395.5186">Access Token Response</text><text fill="#5D5D5D" filter="url(#b1jwsyrvvqafh80)" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="10" x="203" y="413.7979">+</text><text fill="#5D5D5D" filter="url(#b1jwsyrvvqafh80)" font-family="monospace" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="64" x="217" y="412.4854">id_token</text><path d="M149,440.6895 L369,440.6895 L369,447.6895 L359,457.6895 L149,457.6895 L149,440.6895 " fill="#FFFFFF" style="stroke: #5D5D5D; stroke-width: 1.0;"/><rect fill="none" height="80.8691" style="stroke: #5D5D5D; stroke-width: 1.0;" width="535.5" x="149" y="440.6895"/><text fill="#5D5D5D" font-family="Tahoma" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="175" x="164" y="454.6958">Protected resource access</text><polygon fill="#5D5D5D" points="623,478.6602,633,482.6602,623,486.6602,627,482.6602" style="stroke: #5D5D5D; stroke-width: 1.0;"/><line style="stroke: #5D5D5D; stroke-width: 2.0;" x1="186" x2="629" y1="482.6602" y2="482.6602"/><text fill="#5D5D5D" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="132" x="193" y="477.7686">Requests Resources (</text><text fill="#5D5D5D" font-family="monospace" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="288" x="325" y="476.4561">Authorization: Bearer &lt;access token&gt;</text><text fill="#5D5D5D" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="5" x="613" y="477.7686">)</text><polygon fill="#5D5D5D" points="197,509.5586,187,513.5586,197,517.5586,193,513.5586" style="stroke: #5D5D5D; stroke-width: 1.0;"/><line style="stroke: #5D5D5D; stroke-width: 2.0; stroke-dasharray: 2.0,2.0;" x1="191" x2="634" y1="513.5586" y2="513.5586"/><text fill="#5D5D5D" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="132" x="203" y="508.667">Requested Resources</text><!--MD5=[dd4db8dc6344da2481e41e285a0b661b]
+@startuml
+skinparam shadowing false
+skinparam defaultFontName Tahoma
+
+skinparam usecase {
+     FontName "Tahoma"
+     FontSize 16
+     BorderColor #e6e6e6
+     BackGroundColor #e6e6e6
+     FontColor #5d5d5d
+}
+
+skinparam actor  {
+    FontName "Tahoma"
+    FontSize 16
+    FontColor #5d5d5d
+    BackGroundColor white
+    BorderColor #5d5d5d
+    FontName "Tahoma"
+}
+
+skinparam participant  {
+     FontName "Tahoma"
+     FontSize 16
+     FontColor #white
+     BackGroundColor #5d5d5d
+     BorderColor #5d5d5d
+}
+
+skinparam rectangle  {
+     BorderThickness 1
+     Padding 24
+     FontName "Tahoma"
+     FontSize 16
+     FontStyle bold
+     FontColor #222222
+     BorderColor #b6b6b6
+     BackGroundColor #white
+}
+
+skinparam State  {
+     BorderThickness 1
+     Padding 24
+     FontName "Tahoma"
+     FontSize 16
+     FontColor #222222
+     BorderColor #b6b6b6
+     BackGroundColor #white
+}
+
+skinparam Activity  {
+     FontName "Tahoma"
+     FontSize 14
+     BorderColor #e6e6e6
+     BackGroundColor #e6e6e6
+     FontColor #5d5d5d
+}
+
+skinparam ActivityDiamond  {
+     BorderThickness 1
+     Padding 24
+     FontName "Tahoma"
+     FontSize 14
+     FontColor #222222
+     BorderColor #b6b6b6
+     BackGroundColor #white
+}
+
+skinparam card  {
+     FontName "Tahoma"
+     FontSize 16
+     FontColor #white
+     BackGroundColor #5d5d5d
+     BorderColor #5d5d5d
+}
+
+
+skinparam agent {
+     RoundCorner 40
+     FontName "Tahoma"
+     FontSize 16
+     BorderColor #e6e6e6
+     BackGroundColor #e6e6e6
+     FontColor #5d5d5d
+}
+
+skinparam cloud { 
+     FontName "Tahoma"
+     FontSize 16    
+     FontColor #222222
+     BorderColor #b6b6b6
+     BackGroundColor #white
+}
+
+skinparam Arrow{
+    Color #222222
+    FontColor #222222
+    FontSize 14
+    Thickness 1
+    FontName "Tahoma"
+}
+
+skinparam Line{
+    Color #222222
+    FontColor #222222
+    FontSize 14
+    Thickness 1
+    FontName "Tahoma"
+}
+
+skinparam Sequence {
+    ArrowColor #5d5d5d
+    ArrowFontColor #5d5d5d
+    ArrowFontSize 14
+    ArrowThickness 2
+    ArrowFontName "Tahoma"
+    LineColor #5d5d5d
+    LineFontColor #5d5d5d
+    LineFontSize 14
+    LineThickness 2
+    LineFontName "Tahoma"
+    LifeLineBackgroundColor #5d5d5d
+    LifeLineBorderColor #5d5d5d
+    LifeLineBorderThickness 2
+    GroupBorderColor #5d5d5d
+    GroupBorderThickness 1
+    GroupBackgroundColor white
+    GroupHeaderFontColor #5d5d5d
+}
+
+
+actor "Customer" as customer
+participant "Client\nApp" as partner
+participant "Farfetch\nSTS" as farfetch
+participant "/wishlists" as resource
+
+group Access Token request
+    customer -> partner: Clicks in login link
+    partner -> farfetch: Requests Access Token to ""/authorize""\n""reponse_type=token"" <back:#e6e6e6>""id_token""</back>\n<back:#e6e6e6>+ ""openid"" scope</back>
+    farfetch - -> customer: ""302 Found"" redirect to authentication prompt
+    customer -> farfetch: User authenticates with\nusername, password, and consent
+    farfetch -> farfetch: Validates\nResource Owner\ncredentials
+    farfetch - -> partner: Access Token Response\n<back:#e6e6e6>+ ""id_token""</back>
+end
+group Protected resource access
+    partner -> resource: Requests Resources (""Authorization: Bearer <access token>"")
+    resource - -> partner: Requested Resources
+end
+@enduml
+
+PlantUML version 1.2019.11(Sun Sep 22 11:02:15 BST 2019)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) Client VM
+Java Version: 1.8.0_271-b09
+Operating System: Windows 10
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

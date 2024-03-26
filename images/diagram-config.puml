@@ -1,0 +1,132 @@
+'Configuration of tutorial diagrams
+@startuml(id=tutorial)
+skinparam shadowing false
+skinparam defaultFontName Tahoma
+
+skinparam usecase {
+     FontName "Tahoma"
+     FontSize 16
+     BorderColor #e6e6e6
+     BackGroundColor #e6e6e6
+     FontColor #5d5d5d
+}
+
+skinparam actor  {
+    FontName "Tahoma"
+    FontSize 16
+    FontColor #5d5d5d
+    BackGroundColor white
+    BorderColor #5d5d5d
+    FontName "Tahoma"
+}
+
+skinparam participant  {
+     FontName "Tahoma"
+     FontSize 16
+     FontColor #white
+     BackGroundColor #5d5d5d
+     BorderColor #5d5d5d
+}
+
+skinparam rectangle  {
+     BorderThickness 1
+     Padding 24
+     FontName "Tahoma"
+     FontSize 16
+     'FontStyle bold
+     FontColor #222222
+     BorderColor #b6b6b6
+     BackGroundColor #white
+}
+
+skinparam State  {
+     BorderThickness 1
+     Padding 24
+     FontName "Tahoma"
+     FontSize 16
+     FontColor #222222
+     BorderColor #b6b6b6
+     BackGroundColor #white
+}
+
+skinparam Activity  {
+     FontName "Tahoma"
+     FontSize 14
+     BorderColor #e6e6e6
+     BackGroundColor #e6e6e6
+     FontColor #5d5d5d
+}
+
+skinparam ActivityDiamond  {
+     BorderThickness 1
+     Padding 24
+     FontName "Tahoma"
+     FontSize 14
+     FontColor #222222
+     BorderColor #b6b6b6
+     BackGroundColor #white
+}
+
+skinparam card  {
+     FontName "Tahoma"
+     FontSize 16
+     FontColor #white
+     BackGroundColor #5d5d5d
+     BorderColor #5d5d5d
+}
+
+
+skinparam agent {
+     RoundCorner 40
+     FontName "Tahoma"
+     FontSize 16
+     BorderColor #e6e6e6
+     BackGroundColor #e6e6e6
+     FontColor #5d5d5d
+}
+
+skinparam cloud { 
+     FontName "Tahoma"
+     FontSize 16    
+     FontColor #222222
+     BorderColor #b6b6b6
+     BackGroundColor #white
+}
+
+skinparam Arrow{
+    Color #222222
+    FontColor #222222
+    FontSize 14
+    Thickness 1
+    FontName "Tahoma"
+}
+
+skinparam Line{
+    Color #222222
+    FontColor #222222
+    FontSize 14
+    Thickness 1
+    FontName "Tahoma"
+}
+
+skinparam Sequence {
+    ArrowColor #5d5d5d
+    ArrowFontColor #5d5d5d
+    ArrowFontSize 14
+    ArrowThickness 2
+    ArrowFontName "Tahoma"
+    LineColor #5d5d5d
+    LineFontColor #5d5d5d
+    LineFontSize 14
+    LineThickness 2
+    LineFontName "Tahoma"
+    LifeLineBackgroundColor #5d5d5d
+    LifeLineBorderColor #5d5d5d
+    LifeLineBorderThickness 2
+    GroupBorderColor #5d5d5d
+    GroupBorderThickness 1
+    GroupBackgroundColor white
+    GroupHeaderFontColor #5d5d5d
+}
+
+@enduml

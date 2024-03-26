@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="387px" preserveAspectRatio="none" style="width:537px;height:387px;" version="1.1" viewBox="0 0 537 387" width="537px" zoomAndPan="magnify"><defs><filter height="1" id="b1qcsnfn9lw1pc0" width="1" x="0" y="0"><feFlood flood-color="#E6E6E6" result="flood"/><feComposite in="SourceGraphic" in2="flood" operator="over"/></filter></defs><g><line style="stroke: #5D5D5D; stroke-width: 2.0; stroke-dasharray: 5.0,5.0;" x1="45" x2="45" y1="85.3125" y2="296.7441"/><line style="stroke: #5D5D5D; stroke-width: 2.0; stroke-dasharray: 5.0,5.0;" x1="159" x2="159" y1="85.3125" y2="296.7441"/><line style="stroke: #5D5D5D; stroke-width: 2.0; stroke-dasharray: 5.0,5.0;" x1="404" x2="404" y1="85.3125" y2="296.7441"/><text fill="#5D5D5D" font-family="Tahoma" font-size="16" lengthAdjust="spacingAndGlyphs" textLength="68" x="8" y="82.0078">Customer</text><ellipse cx="45" cy="13" fill="#FFFFFF" rx="8" ry="8" style="stroke: #5D5D5D; stroke-width: 2.0;"/><path d="M45,21 L45,48 M32,29 L58,29 M45,48 L32,63 M45,48 L58,63 " fill="none" style="stroke: #5D5D5D; stroke-width: 2.0;"/><text fill="#5D5D5D" font-family="Tahoma" font-size="16" lengthAdjust="spacingAndGlyphs" textLength="68" x="8" y="311.752">Customer</text><ellipse cx="45" cy="325.0566" fill="#FFFFFF" rx="8" ry="8" style="stroke: #5D5D5D; stroke-width: 2.0;"/><path d="M45,333.0566 L45,360.0566 M32,341.0566 L58,341.0566 M45,360.0566 L32,375.0566 M45,360.0566 L58,375.0566 " fill="none" style="stroke: #5D5D5D; stroke-width: 2.0;"/><rect fill="#5D5D5D" height="52.625" style="stroke: #5D5D5D; stroke-width: 1.5;" width="54" x="132" y="31.6875"/><text fill="#FFFFFF" font-family="Tahoma" font-size="16" lengthAdjust="spacingAndGlyphs" textLength="40" x="139" y="54.6953">Client</text><text fill="#FFFFFF" font-family="Tahoma" font-size="16" lengthAdjust="spacingAndGlyphs" textLength="29" x="144.5" y="74.0078">App</text><rect fill="#5D5D5D" height="52.625" style="stroke: #5D5D5D; stroke-width: 1.5;" width="54" x="132" y="295.7441"/><text fill="#FFFFFF" font-family="Tahoma" font-size="16" lengthAdjust="spacingAndGlyphs" textLength="40" x="139" y="318.752">Client</text><text fill="#FFFFFF" font-family="Tahoma" font-size="16" lengthAdjust="spacingAndGlyphs" textLength="29" x="144.5" y="338.0645">App</text><rect fill="#5D5D5D" height="52.625" style="stroke: #5D5D5D; stroke-width: 1.5;" width="70" x="369" y="31.6875"/><text fill="#FFFFFF" font-family="Tahoma" font-size="16" lengthAdjust="spacingAndGlyphs" textLength="56" x="376" y="54.6953">Farfetch</text><text fill="#FFFFFF" font-family="Tahoma" font-size="16" lengthAdjust="spacingAndGlyphs" textLength="28" x="390" y="74.0078">STS</text><rect fill="#5D5D5D" height="52.625" style="stroke: #5D5D5D; stroke-width: 1.5;" width="70" x="369" y="295.7441"/><text fill="#FFFFFF" font-family="Tahoma" font-size="16" lengthAdjust="spacingAndGlyphs" textLength="56" x="376" y="318.752">Farfetch</text><text fill="#FFFFFF" font-family="Tahoma" font-size="16" lengthAdjust="spacingAndGlyphs" textLength="28" x="390" y="338.0645">STS</text><polygon fill="#5D5D5D" points="147,114.2109,157,118.2109,147,122.2109,151,118.2109" style="stroke: #5D5D5D; stroke-width: 1.0;"/><line style="stroke: #5D5D5D; stroke-width: 2.0;" x1="45" x2="153" y1="118.2109" y2="118.2109"/><text fill="#5D5D5D" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="90" x="52" y="113.3193">Clicks in logout</text><polygon fill="#5D5D5D" points="392,181.668,402,185.668,392,189.668,396,185.668" style="stroke: #5D5D5D; stroke-width: 1.0;"/><line style="stroke: #5D5D5D; stroke-width: 2.0;" x1="159" x2="398" y1="185.668" y2="185.668"/><text fill="#5D5D5D" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="133" x="166" y="144.2178">Requests End Session</text><text fill="#5D5D5D" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="25" x="166" y="162.4971">with</text><text fill="#5D5D5D" font-family="monospace" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="192" x="195" y="161.1846">post_logout_redirect_uri</text><text fill="#5D5D5D" filter="url(#b1qcsnfn9lw1pc0)" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="10" x="166" y="180.7764">+</text><text fill="#5D5D5D" filter="url(#b1qcsnfn9lw1pc0)" font-family="monospace" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="64" x="180" y="179.4639">id_token</text><line style="stroke: #5D5D5D; stroke-width: 2.0;" x1="404" x2="446" y1="233.4648" y2="233.4648"/><line style="stroke: #5D5D5D; stroke-width: 2.0;" x1="446" x2="446" y1="233.4648" y2="246.4648"/><line style="stroke: #5D5D5D; stroke-width: 2.0;" x1="405" x2="446" y1="246.4648" y2="246.4648"/><polygon fill="#5D5D5D" points="415,242.4648,405,246.4648,415,250.4648,411,246.4648" style="stroke: #5D5D5D; stroke-width: 1.0;"/><text fill="#5D5D5D" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="114" x="411" y="211.6748">Ends and removes</text><text fill="#5D5D5D" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="105" x="411" y="228.5732">customer session</text><polygon fill="#5D5D5D" points="56,274.7441,46,278.7441,56,282.7441,52,278.7441" style="stroke: #5D5D5D; stroke-width: 1.0;"/><line style="stroke: #5D5D5D; stroke-width: 2.0; stroke-dasharray: 2.0,2.0;" x1="50" x2="403" y1="278.7441" y2="278.7441"/><text fill="#5D5D5D" font-family="Tahoma" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="135" x="62" y="273.8525">Redirects customer to</text><text fill="#5D5D5D" font-family="monospace" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="192" x="201" y="272.54">post_logout_redirect_uri</text><!--MD5=[bc578319ee062b52bd9d24e9b00d29fb]
+@startuml
+skinparam shadowing false
+skinparam defaultFontName Tahoma
+
+skinparam usecase {
+     FontName "Tahoma"
+     FontSize 16
+     BorderColor #e6e6e6
+     BackGroundColor #e6e6e6
+     FontColor #5d5d5d
+}
+
+skinparam actor  {
+    FontName "Tahoma"
+    FontSize 16
+    FontColor #5d5d5d
+    BackGroundColor white
+    BorderColor #5d5d5d
+    FontName "Tahoma"
+}
+
+skinparam participant  {
+     FontName "Tahoma"
+     FontSize 16
+     FontColor #white
+     BackGroundColor #5d5d5d
+     BorderColor #5d5d5d
+}
+
+skinparam rectangle  {
+     BorderThickness 1
+     Padding 24
+     FontName "Tahoma"
+     FontSize 16
+     FontStyle bold
+     FontColor #222222
+     BorderColor #b6b6b6
+     BackGroundColor #white
+}
+
+skinparam State  {
+     BorderThickness 1
+     Padding 24
+     FontName "Tahoma"
+     FontSize 16
+     FontColor #222222
+     BorderColor #b6b6b6
+     BackGroundColor #white
+}
+
+skinparam Activity  {
+     FontName "Tahoma"
+     FontSize 14
+     BorderColor #e6e6e6
+     BackGroundColor #e6e6e6
+     FontColor #5d5d5d
+}
+
+skinparam ActivityDiamond  {
+     BorderThickness 1
+     Padding 24
+     FontName "Tahoma"
+     FontSize 14
+     FontColor #222222
+     BorderColor #b6b6b6
+     BackGroundColor #white
+}
+
+skinparam card  {
+     FontName "Tahoma"
+     FontSize 16
+     FontColor #white
+     BackGroundColor #5d5d5d
+     BorderColor #5d5d5d
+}
+
+
+skinparam agent {
+     RoundCorner 40
+     FontName "Tahoma"
+     FontSize 16
+     BorderColor #e6e6e6
+     BackGroundColor #e6e6e6
+     FontColor #5d5d5d
+}
+
+skinparam cloud { 
+     FontName "Tahoma"
+     FontSize 16    
+     FontColor #222222
+     BorderColor #b6b6b6
+     BackGroundColor #white
+}
+
+skinparam Arrow{
+    Color #222222
+    FontColor #222222
+    FontSize 14
+    Thickness 1
+    FontName "Tahoma"
+}
+
+skinparam Line{
+    Color #222222
+    FontColor #222222
+    FontSize 14
+    Thickness 1
+    FontName "Tahoma"
+}
+
+skinparam Sequence {
+    ArrowColor #5d5d5d
+    ArrowFontColor #5d5d5d
+    ArrowFontSize 14
+    ArrowThickness 2
+    ArrowFontName "Tahoma"
+    LineColor #5d5d5d
+    LineFontColor #5d5d5d
+    LineFontSize 14
+    LineThickness 2
+    LineFontName "Tahoma"
+    LifeLineBackgroundColor #5d5d5d
+    LifeLineBorderColor #5d5d5d
+    LifeLineBorderThickness 2
+    GroupBorderColor #5d5d5d
+    GroupBorderThickness 1
+    GroupBackgroundColor white
+    GroupHeaderFontColor #5d5d5d
+}
+
+
+actor "Customer" as customer
+participant "Client\nApp" as partner
+participant "Farfetch\nSTS" as farfetch
+
+customer -> partner: Clicks in logout
+partner -> farfetch: Requests End Session\nwith ""post_logout_redirect_uri""\n<back:#e6e6e6>+ ""id_token""</back>
+farfetch -> farfetch: Ends and removes\ncustomer session
+farfetch - -> customer: Redirects customer to ""post_logout_redirect_uri""
+@enduml
+
+PlantUML version 1.2019.11(Sun Sep 22 11:02:15 BST 2019)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) Client VM
+Java Version: 1.8.0_271-b09
+Operating System: Windows 10
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

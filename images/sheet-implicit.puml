@@ -1,0 +1,40 @@
+@startuml
+
+
+'light-green: #94def3
+'dark-green: #2c9ab7
+'black: #222222
+'background grey for actors and participants: #f8f8f8
+'dark-grey: #e6e6e6
+
+'### Color schema
+!include diagram-config.puml!tutorial
+
+scale 768 width
+scale 1024 height
+
+actor "Customer" as customer
+participant "Client\nApp" as partner
+participant "Farfetch\nSTS" as farfetch
+participant "/wishlists" as resource
+
+group Access Token request 
+    customer -> partner: Clicks in login link
+    partner -> farfetch: <u>https://auth.farfetch.net/connect/authorize</u>\n<u>?<b>response_type=token</b> <back:#e6e6e6>id_token</back>\n&<u>client_id=ff_awesome_client</u>\n<u>&<back:#94def3><b>redirect_uri=https://awesomeclientapp/callback-success</b></back></u>\n<u>&scope=<back:#e6e6e6>openid</back>+commerce.wishlist.read</u>\n<u>&<back:#94def3><b>state=abcde</b></u>\n<u>&<back:#94def3><b>nonce=54321</b></back></u>(*)
+    farfetch --> customer: ""302 Found"" redirect to authentication prompt
+    customer -> farfetch: User authenticates with\nusername, password, and consent
+    farfetch -> farfetch: Validates\nResource Owner\ncredentials
+    farfetch --> partner: \n<u>https://awesomeclientapp/callback-success</u>\n<u>?<back:#2c9ab7><b>access_token=AYjcyMzY3ZDhiNmJkNTY</b></back></u>\n<u>&<back:#2c9ab7><b>token_type=Bearer</b></back></u>\n<u>&expires_in=3600</u>\n<u>&<back:#94def3><b>state=abcde</b></back></u>\n<u>&<back:#94def3><b>nonce=54321</b></back></u>\n<u>&<back:#e6e6e6>id_token=IYsjdhYsdldnnHHHn,ksnajJHkJkk</back></u>(*)
+end
+group Protected resource access
+    partner -> resource: curl --request <u>GET</u> \\\n  --url <u>https://api.farfetch.net/user/12345/whislist</u> \\\n  <i>--header 'accept: application/json'</i> \\\n  <i>--header 'content-type: application/json'</i> \\\n  <i>--header '<b><back:#2c9ab7>authorization: bearer AYjcyMzY3ZDhiNmJkNTY</back></b>'</i>
+    resource --> partner: Wishlist of user 12345
+end
+
+left footer \n<color #000><font size=14>\t\t(*) The form-encoding was removed and the line breaks added for readability.</font></color>\n\n<color #000><font size=14>\t\tFont and background color conventions:</font></color>\n<color #000><font size=14>\t\t - All fields are required</font></color>\n<color #000><font size=14>\t\t - <back:#e6e6e6>OpenID Connection extension</back></font></color>\n<color #000><font size=14>\t\t - <b>Required values</b></font></color>\n<color #000><font size=14>\t\t - <i>Headers</i></font></color>\n<color #000><font size=14>\t\t - <back:#94def3><b>Used in more than one message</b></back></font></color>
+
+@enduml
+
+access_token=eyJhbGciOiJSUzI1Ni...&
+token_type=Bearer&
+expires_in=36000&

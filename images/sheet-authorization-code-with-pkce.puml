@@ -1,0 +1,46 @@
+@startuml
+
+'light-green: #94def3
+'dark-green: #2c9ab7
+'black: #222222
+'background grey for actors and participants: #f8f8f8
+'dark-grey: #e6e6e6
+
+'### Color schema
+!include diagram-config.puml!tutorial
+
+scale 768 width
+scale 1024 height
+
+
+actor "Customer" as customer
+participant "Client\nApp" as partner
+participant "Farfetch\nSTS" as farfetch
+participant "/wishlists" as resource
+
+group PKCE generation 
+    customer -> partner: Clicks in login link
+    partner -> partner: Creates <back:#94def3><b>code_verifier=SDIL_Ksdkljlsd239847-sdcfsd~2342342.dfsdfU</b></back>
+    partner -> partner: Generates the\n<back:#94def3><b>code_challenge=MWE4Y2QyNTZlYzVhMjQzNmZlNjBiM2UzZjNjMDg1N2FkYzZmYWQzZTcxNWJiNGU4MzM5NjMwYTIxNGUxYTI4Nw</b></back>
+end
+group Authorization Code request 
+    partner -> farfetch: <u>https://auth.farfetch.net/connect/authorize</u>\n<u>?<b>response_type=code</b> <back:#e6e6e6>""id_token""</back>&client_id=ff_awesome_client</u>\n<u>&<back:#94def3><b>redirect_uri=https://awesomeclientapp/callback-success</b></back></u>\n<u>&scope=<back:#e6e6e6>openid</back>+commerce.wishlist.read+offline_access&<back:#94def3><b>state=abcde&nonce=54321</b></back></u>\n<u>&<back:#94def3><b>code_challenge=MWE4Y2QyNTZlY...NGU4MzM5NjMwYTIxNGUxYTI4Nw</b></back></u>\n<u>&<back:#94def3><b>code_challenge_method=S256</b></back></u>(*)
+    farfetch --> customer: ""302 Found"" redirect to authentication prompt
+    customer -> farfetch: User authenticates with\nusername, password, and consent
+    farfetch -> farfetch: Validates\nResource Owner\ncredentials
+    farfetch --> partner: \n<u>https://awesomeclientapp/callback-success</u>\n<u>?<back:#94def3><b>code=hdh922&state=abcde&nonce=54321</b></back></u>\n<u>&<back:#94def3><b>code_challenge=051262686f1cddb6e7d990e9ea1252854aef63ebe1632cdc1b304c3615b4fb52</b></back></u>\n<u>&<back:#94def3><b>code_challenge_method=S256</b></back></u>(*)
+    partner -> partner: Validates code challenge
+end
+group Access Token request
+    partner -> farfetch: curl --request <u>POST</u> \\\n  --url <u>https://auth.farfetch.net/connect/token</u> \\\n  <i>--header 'accept: application/json'</i> \\\n  <i>--header 'content-type: application/x-www-form-urlencoded'</i> \\\n  --data 'client_id=ff_awesome_client' \\\n  --data 'client_secret=awesome_client_secret' \\\n  --data '<b>grant_type=authorization_code</b>' \\\n  --data '<back:#94def3><b>code=hdh922</b></back>' \\\n  --data '<back:#94def3><b>redirect_uri=https://awesomeclientapp.net/callback-success</b></back>'\n  --data '<back:#94def3><b>code_verifier=SDIL_Ksdkljlsd239847-sdcfsd~2342342.dfsdfU</b></back>'
+    farfetch -> farfetch: Validates\nClient Credentials,\nAuthorization Code,\nand code_verifier
+    farfetch --> partner: HTTP/1.1 200 OK\n<i>Content-Type: application/json</i>\n<i>Cache-Control: no-store</i>\n<i>Pragma: no-cache</i>\n{\n  <back:#2c9ab7><b>"access_token": "AYjcyMzY3ZDhiNmJkNTY"</b></back>,\n  <back:#2c9ab7><b>"token_type": "bearer"</b></back>,\n  "refresh_token": "AYjcyjasdHkAhSSiNmJkNTY"\n  "expires_in": 2400,\n  <back:#e6e6e6>"""id_token"""="IYsjdhYsdldnnHHHn,ksnajJHkJkk"</back>\n}
+end
+group Protected resource access
+    partner -> resource: curl --request <u>GET</u> \\\n  --url <u>https://api.farfetch.net/user/12345/whislist</u> \\\n  <i>--header 'accept: application/json'</i> \\\n  <i>--header 'content-type: application/json'</i> \\\n  <i>--header '<b><back:#2c9ab7>authorization: bearer AYjcyMzY3ZDhiNmJkNTY</back></b>'</i>
+    resource --> partner: Wishlist of user 12345
+end
+
+left footer \n<color #000><font size=14>\t\t(*) The form-encoding was removed and the line breaks added for readability.</font></color>\n\n<color #000><font size=14>\t\tFont and background color conventions:</font></color>\n<color #000><font size=14>\t\t - All fields are required</font></color>\n<color #000><font size=14>\t\t - <back:#e6e6e6>OpenID Connection extension</back></font></color>\n<color #000><font size=14>\t\t - <b>Required values</b></font></color>\n<color #000><font size=14>\t\t - <i>Headers</i></font></color>\n<color #000><font size=14>\t\t - <back:#2c9ab7><b>Used in more than one message</b></back></font></color>
+
+@enduml

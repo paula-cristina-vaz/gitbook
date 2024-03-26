@@ -1,0 +1,32 @@
+@startuml
+
+'light-green: #94def3
+'dark-green: #2c9ab7
+'black: #222222
+'background grey for actors and participants: #f8f8f8
+'dark-grey: #e6e6e6
+
+'### Color schema
+!include diagram-config.puml!tutorial
+
+scale 768 width
+scale 1024 height
+
+
+actor "Customer" as customer
+participant "Client\nApp" as partner
+participant "Farfetch\nSTS" as farfetch
+participant "/wishlists" as resource
+
+group Access Token request
+    customer -> partner: Clicks in login link
+    partner -> farfetch: curl --request POST \\\n    --url 'https://auth.farfetch.net/connect/token' \\\n<i>    --header 'Content-Type: application/x-www-form-urlencoded'</i> \\\n<i>    --header 'accept: application/json'</i> \\\n<b>    --data 'grant_type=password'</b> \\\n<b>    --data 'client_id=ff_amazing_client'</b> \\\n<b>    --data 'client_secret=amazing_client_secret'</b> \\\n<b>    --data 'username=amazing.user'</b> \\\n<b>    --data 'password=amazing_user_password'</b> \\\n<b>    --data 'scope=wishlists.read'</b> 
+    farfetch -> farfetch: Validates\nclient\nand\nuser\ncredentials
+    farfetch --> partner: HTTP/1.1 200 OK\n<i>Content-Type: application/json</i>\n<i>Cache-Control: no-store</i>\n<i>Pragma: no-cache</i>\n{\n  <b><back:#94def3>"access_token": "AYjcyMzY...3ZDhiNmJkNTY"</back></b>,\n  <b><back:#94def3>"token_type": "Bearer"</back></b>,\n  "expires_in": 2400\n}
+end
+group Protected resource access
+    partner -> resource: Requests Resources (""Authorization: Bearer <access token>"")
+    resource --> partner: Requested Resources
+end
+@enduml
+

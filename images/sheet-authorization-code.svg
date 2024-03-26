@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1034.0381px" preserveAspectRatio="none" style="width:758px;height:1034px;" version="1.1" viewBox="0 0 758 1034" width="758.8568px" zoomAndPan="magnify"><defs><filter height="1" id="boecfxr4az5sp0" width="1" x="0" y="0"><feFlood flood-color="#E6E6E6" result="flood"/><feComposite in="SourceGraphic" in2="flood" operator="over"/></filter><filter height="1" id="boecfxr4az5sp1" width="1" x="0" y="0"><feFlood flood-color="#94DEF3" result="flood"/><feComposite in="SourceGraphic" in2="flood" operator="over"/></filter><filter height="1" id="boecfxr4az5sp2" width="1" x="0" y="0"><feFlood flood-color="#2C9AB7" result="flood"/><feComposite in="SourceGraphic" in2="flood" operator="over"/></filter></defs><g><rect fill="#FFFFFF" height="285.3842" style="stroke: #5D5D5D; stroke-width: 0.766521974961366;" width="674.5393" x="9.9648" y="78.4248"/><rect fill="#FFFFFF" height="340.6861" style="stroke: #5D5D5D; stroke-width: 0.766521974961366;" width="602.4863" x="114.2118" y="374.5403"/><rect fill="#FFFFFF" height="112.7416" style="stroke: #5D5D5D; stroke-width: 0.766521974961366;" width="636.5965" x="114.2118" y="725.9577"/><line style="stroke: #5D5D5D; stroke-width: 1.533043949922732; stroke-dasharray: 5.0,5.0;" x1="45.9913" x2="45.9913" y1="65.3939" y2="851.7302"/><line style="stroke: #5D5D5D; stroke-width: 1.533043949922732; stroke-dasharray: 5.0,5.0;" x1="142.5731" x2="142.5731" y1="65.3939" y2="851.7302"/><line style="stroke: #5D5D5D; stroke-width: 1.533043949922732; stroke-dasharray: 5.0,5.0;" x1="592.5215" x2="592.5215" y1="65.3939" y2="851.7302"/><line style="stroke: #5D5D5D; stroke-width: 1.533043949922732; stroke-dasharray: 5.0,5.0;" x1="712.4822" x2="712.4822" y1="65.3939" y2="851.7302"/><text fill="#5D5D5D" font-family="Tahoma" font-size="12.2644" lengthAdjust="spacingAndGlyphs" textLength="52.1235" x="17.63" y="62.8608">Customer</text><ellipse cx="45.9913" cy="9.9648" fill="#FFFFFF" rx="6.1322" ry="6.1322" style="stroke: #5D5D5D; stroke-width: 1.533043949922732;"/><path d="M45.9913,16.097 L45.9913,36.7931 M36.0265,22.2291 L55.9561,22.2291 M45.9913,36.7931 L36.0265,48.2909 M45.9913,36.7931 L55.9561,48.2909 " fill="none" style="stroke: #5D5D5D; stroke-width: 1.533043949922732;"/><text fill="#5D5D5D" font-family="Tahoma" font-size="12.2644" lengthAdjust="spacingAndGlyphs" textLength="52.1235" x="17.63" y="863.234">Customer</text><ellipse cx="45.9913" cy="873.4323" fill="#FFFFFF" rx="6.1322" ry="6.1322" style="stroke: #5D5D5D; stroke-width: 1.533043949922732;"/><path d="M45.9913,879.5645 L45.9913,900.2606 M36.0265,885.6967 L55.9561,885.6967 M45.9913,900.2606 L36.0265,911.7584 M45.9913,900.2606 L55.9561,911.7584 " fill="none" style="stroke: #5D5D5D; stroke-width: 1.533043949922732;"/><rect fill="#5D5D5D" height="40.3382" style="stroke: #5D5D5D; stroke-width: 1.149782962442049;" width="41.3922" x="121.877" y="24.2892"/><text fill="#FFFFFF" font-family="Tahoma" font-size="12.2644" lengthAdjust="spacingAndGlyphs" textLength="30.6609" x="127.2426" y="41.9252">Client</text><text fill="#FFFFFF" font-family="Tahoma" font-size="12.2644" lengthAdjust="spacingAndGlyphs" textLength="22.2291" x="131.4585" y="56.7286">App</text><rect fill="#5D5D5D" height="40.3382" style="stroke: #5D5D5D; stroke-width: 1.149782962442049;" width="41.3922" x="121.877" y="850.9637"/><text fill="#FFFFFF" font-family="Tahoma" font-size="12.2644" lengthAdjust="spacingAndGlyphs" textLength="30.6609" x="127.2426" y="868.5996">Client</text><text fill="#FFFFFF" font-family="Tahoma" font-size="12.2644" lengthAdjust="spacingAndGlyphs" textLength="22.2291" x="131.4585" y="883.4031">App</text><rect fill="#5D5D5D" height="40.3382" style="stroke: #5D5D5D; stroke-width: 1.149782962442049;" width="53.6565" x="565.6932" y="24.2892"/><text fill="#FFFFFF" font-family="Tahoma" font-size="12.2644" lengthAdjust="spacingAndGlyphs" textLength="42.9252" x="571.0589" y="41.9252">Farfetch</text><text fill="#FFFFFF" font-family="Tahoma" font-size="12.2644" lengthAdjust="spacingAndGlyphs" textLength="21.4626" x="581.7902" y="56.7286">STS</text><rect fill="#5D5D5D" height="40.3382" style="stroke: #5D5D5D; stroke-width: 1.149782962442049;" width="53.6565" x="565.6932" y="850.9637"/><text fill="#FFFFFF" font-family="Tahoma" font-size="12.2644" lengthAdjust="spacingAndGlyphs" textLength="42.9252" x="571.0589" y="868.5996">Farfetch</text><text fill="#FFFFFF" font-family="Tahoma" font-size="12.2644" lengthAdjust="spacingAndGlyphs" textLength="21.4626" x="581.7902" y="883.4031">STS</text><rect fill="#5D5D5D" height="25.5348" style="stroke: #5D5D5D; stroke-width: 1.149782962442049;" width="60.5552" x="682.5878" y="39.0926"/><text fill="#FFFFFF" font-family="Tahoma" font-size="12.2644" lengthAdjust="spacingAndGlyphs" textLength="49.8239" x="687.9535" y="56.7286">/wishlists</text><rect fill="#5D5D5D" height="25.5348" style="stroke: #5D5D5D; stroke-width: 1.149782962442049;" width="60.5552" x="682.5878" y="850.9637"/><text fill="#FFFFFF" font-family="Tahoma" font-size="12.2644" lengthAdjust="spacingAndGlyphs" textLength="49.8239" x="687.9535" y="868.5996">/wishlists</text><path d="M9.9648,78.4248 L182.4322,78.4248 L182.4322,83.7904 L174.767,91.4557 L9.9648,91.4557 L9.9648,78.4248 " fill="#FFFFFF" style="stroke: #5D5D5D; stroke-width: 0.766521974961366;"/><rect fill="none" height="285.3842" style="stroke: #5D5D5D; stroke-width: 0.766521974961366;" width="674.5393" x="9.9648" y="78.4248"/><text fill="#5D5D5D" font-family="Tahoma" font-size="9.9648" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="137.974" x="21.4626" y="89.161">Authorization Code request</text><polygon fill="#5D5D5D" points="133.3748,106.4717,141.04,109.5378,133.3748,112.6039,136.4409,109.5378" style="stroke: #5D5D5D; stroke-width: 0.766521974961366;"/><line style="stroke: #5D5D5D; stroke-width: 1.533043949922732;" x1="45.9913" x2="137.974" y1="109.5378" y2="109.5378"/><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="78.1852" x="51.357" y="105.7883">Clicks in login link</text><polygon fill="#5D5D5D" points="583.3232,170.0736,590.9884,173.1396,583.3232,176.2057,586.3893,173.1396" style="stroke: #5D5D5D; stroke-width: 0.766521974961366;"/><line style="stroke: #5D5D5D; stroke-width: 1.533043949922732;" x1="142.5731" x2="587.9224" y1="173.1396" y2="173.1396"/><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="203.8948" x="147.9387" y="129.4726">https://auth.farfetch.net/connect/authorize</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="5.3657" x="147.9387" y="143.4841">?</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" font-weight="bold" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="112.6787" x="153.3044" y="143.4841">response_type=code</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="0" x="269.0492" y="143.4841"/><text fill="#5D5D5D" filter="url(#boecfxr4az5sp0)" font-family="monospace" font-size="10.7313" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="49.0574" x="269.0492" y="142.478">id_token</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="137.974" x="318.1066" y="143.4841">&amp;client_id=ff_awesome_client</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="6.8987" x="147.9387" y="156.4371">&amp;</text><text fill="#5D5D5D" filter="url(#boecfxr4az5sp1)" font-family="Tahoma" font-size="10.7313" font-weight="bold" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="302.7762" x="154.8374" y="156.4371">redirect_uri=https://awesomeclientapp/callback-success</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="42.1587" x="147.9387" y="169.3901">&amp;scope=</text><text fill="#5D5D5D" filter="url(#boecfxr4az5sp0)" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="31.4274" x="190.0974" y="169.3901">openid</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="193.9301" x="221.5249" y="169.3901">+offline_access+commerce.wishlist.read&amp;</text><text fill="#5D5D5D" filter="url(#boecfxr4az5sp1)" font-family="Tahoma" font-size="10.7313" font-weight="bold" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="150.2383" x="415.4549" y="169.3901">state=abcde&amp;nonce=54321</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="13.7974" x="565.6932" y="169.3901">(*)</text><polygon fill="#5D5D5D" points="54.4231,194.8164,46.7578,197.8824,54.4231,200.9485,51.357,197.8824" style="stroke: #5D5D5D; stroke-width: 0.766521974961366;"/><line style="stroke: #5D5D5D; stroke-width: 1.533043949922732; stroke-dasharray: 2.0,2.0;" x1="49.8239" x2="591.755" y1="197.8824" y2="197.8824"/><text fill="#5D5D5D" font-family="monospace" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="55.1896" x="59.0222" y="193.1269">302 Found</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="156.3705" x="117.2779" y="194.1329">redirect to authentication prompt</text><polygon fill="#5D5D5D" points="583.3232,231.4537,590.9884,234.5198,583.3232,237.5859,586.3893,234.5198" style="stroke: #5D5D5D; stroke-width: 0.766521974961366;"/><line style="stroke: #5D5D5D; stroke-width: 1.533043949922732;" x1="45.9913" x2="587.9224" y1="234.5198" y2="234.5198"/><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="108.8461" x="51.357" y="217.8172">User authenticates with</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="160.9696" x="51.357" y="230.7703">username, password, and consent</text><line style="stroke: #5D5D5D; stroke-width: 1.533043949922732;" x1="592.5215" x2="624.7154" y1="284.1102" y2="284.1102"/><line style="stroke: #5D5D5D; stroke-width: 1.533043949922732;" x1="624.7154" x2="624.7154" y1="284.1102" y2="294.075"/><line style="stroke: #5D5D5D; stroke-width: 1.533043949922732;" x1="593.288" x2="624.7154" y1="294.075" y2="294.075"/><polygon fill="#5D5D5D" points="600.9532,291.0089,593.288,294.075,600.9532,297.141,597.8871,294.075" style="stroke: #5D5D5D; stroke-width: 0.766521974961366;"/><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="39.8591" x="597.8871" y="254.4546">Validates</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="77.4187" x="597.8871" y="267.4076">Resource Owner</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="49.0574" x="597.8871" y="280.3607">credentials</text><polygon fill="#5D5D5D" points="151.0048,354.6107,143.3396,357.6768,151.0048,360.7429,147.9387,357.6768" style="stroke: #5D5D5D; stroke-width: 0.766521974961366;"/><line style="stroke: #5D5D5D; stroke-width: 1.533043949922732; stroke-dasharray: 2.0,2.0;" x1="146.4057" x2="591.755" y1="357.6768" y2="357.6768"/><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="0" x="158.67" y="314.0098"/><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="200.8288" x="155.604" y="326.9628">https://awesomeclientapp/callback-success</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="5.3657" x="155.604" y="339.9158">?</text><text fill="#5D5D5D" filter="url(#boecfxr4az5sp1)" font-family="Tahoma" font-size="10.7313" font-weight="bold" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="233.7892" x="160.9696" y="339.9158">code=hdh922&amp;state=abcde&amp;nonce=54321</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="6.8987" x="155.604" y="353.9273">&amp;</text><text fill="#5D5D5D" filter="url(#boecfxr4az5sp0)" font-family="monospace" font-size="10.7313" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="49.0574" x="162.5027" y="352.9212">id_token</text><text fill="#5D5D5D" filter="url(#boecfxr4az5sp0)" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="160.2031" x="211.5601" y="353.9273">=IYsjdhYsdldnnHHHn,ksnajJHkJkk</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="13.7974" x="371.7632" y="353.9273">(*)</text><path d="M114.2118,374.5403 L258.3179,374.5403 L258.3179,379.906 L250.6527,387.5712 L114.2118,387.5712 L114.2118,374.5403 " fill="#FFFFFF" style="stroke: #5D5D5D; stroke-width: 0.766521974961366;"/><rect fill="none" height="340.6861" style="stroke: #5D5D5D; stroke-width: 0.766521974961366;" width="602.4863" x="114.2118" y="374.5403"/><text fill="#5D5D5D" font-family="Tahoma" font-size="9.9648" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="109.6126" x="125.7096" y="385.2765">Access Token request</text><polygon fill="#5D5D5D" points="583.3232,506.2114,590.9884,509.2775,583.3232,512.3436,586.3893,509.2775" style="stroke: #5D5D5D; stroke-width: 0.766521974961366;"/><line style="stroke: #5D5D5D; stroke-width: 1.533043949922732;" x1="142.5731" x2="587.9224" y1="509.2775" y2="509.2775"/><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="62.8548" x="147.9387" y="401.9038">curl --request</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="26.0617" x="213.8596" y="401.9038">POST</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="3.8326" x="242.9875" y="401.9038">\</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="19.163" x="154.0709" y="414.8568">--url</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="187.7979" x="176.3001" y="414.8568">https://auth.farfetch.net/connect/token</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="3.8326" x="367.164" y="414.8568">\</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="0" x="154.0709" y="427.8098"/><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="158.67" x="154.0709" y="427.8098">--header 'accept: application/json'</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="3.8326" x="315.8071" y="427.8098">\</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="0" x="154.0709" y="440.7629"/><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="284.3797" x="154.0709" y="440.7629">--header 'content-type: application/x-www-form-urlencoded'</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="3.8326" x="441.5167" y="440.7629">\</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="174.0005" x="154.0709" y="453.7159">--data 'client_id=ff_awesome_client' \</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="216.9257" x="154.0709" y="466.6689">--data 'client_secret=awesome_client_secret' \</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="33.727" x="154.0709" y="479.6219">--data '</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="170.9344" x="187.7979" y="479.6219">grant_type=authorization_code</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="9.1983" x="358.7323" y="479.6219">' \</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="33.727" x="154.0709" y="492.575">--data '</text><text fill="#5D5D5D" filter="url(#boecfxr4az5sp1)" font-family="Tahoma" font-size="10.7313" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="75.1192" x="187.7979" y="492.575">code=hdh922</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="9.1983" x="262.917" y="492.575">' \</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="33.727" x="154.0709" y="505.528">--data '</text><text fill="#5D5D5D" filter="url(#boecfxr4az5sp1)" font-family="Tahoma" font-size="10.7313" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="323.4723" x="187.7979" y="505.528">redirect_uri=https://awesomeclientapp.net/callback-success</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="2.2996" x="511.2702" y="505.528">'</text><line style="stroke: #5D5D5D; stroke-width: 1.533043949922732;" x1="592.5215" x2="624.7154" y1="558.8679" y2="558.8679"/><line style="stroke: #5D5D5D; stroke-width: 1.533043949922732;" x1="624.7154" x2="624.7154" y1="558.8679" y2="568.8327"/><line style="stroke: #5D5D5D; stroke-width: 1.533043949922732;" x1="593.288" x2="624.7154" y1="568.8327" y2="568.8327"/><polygon fill="#5D5D5D" points="600.9532,565.7666,593.288,568.8327,600.9532,571.8988,597.8871,568.8327" style="stroke: #5D5D5D; stroke-width: 0.766521974961366;"/><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="39.8591" x="597.8871" y="529.2123">Validates</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="78.9518" x="597.8871" y="542.1653">Client Credentials</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="109.6126" x="597.8871" y="555.1184">and Authorization Code</text><polygon fill="#5D5D5D" points="151.0048,706.0281,143.3396,709.0942,151.0048,712.1603,147.9387,709.0942" style="stroke: #5D5D5D; stroke-width: 0.766521974961366;"/><line style="stroke: #5D5D5D; stroke-width: 1.533043949922732; stroke-dasharray: 2.0,2.0;" x1="146.4057" x2="591.755" y1="709.0942" y2="709.0942"/><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="82.7844" x="155.604" y="588.7675">HTTP/1.1 200 OK</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="145.6392" x="155.604" y="601.7205">Content-Type: application/json</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="114.2118" x="155.604" y="614.6735">Cache-Control: no-store</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="86.617" x="155.604" y="627.6265">Pragma: no-cache</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="5.3657" x="155.604" y="640.5796">{</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="0" x="161.7361" y="653.5326"/><text fill="#5D5D5D" filter="url(#boecfxr4az5sp2)" font-family="Tahoma" font-size="10.7313" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="233.7892" x="161.7361" y="653.5326">"access_token": "AYjcyMzY3ZDhiNmJkNTY"</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="3.0661" x="395.5253" y="653.5326">,</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="0" x="161.7361" y="666.4856"/><text fill="#5D5D5D" filter="url(#boecfxr4az5sp2)" font-family="Tahoma" font-size="10.7313" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="124.1766" x="161.7361" y="666.4856">"token_type": "bearer"</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="3.0661" x="285.9127" y="666.4856">,</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="219.9918" x="161.7361" y="679.4386">"refresh_token": "AYjcyjasdHkAhSSiNmJkNTY"</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="87.3835" x="161.7361" y="692.3917">"expires_in": 2400</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="5.3657" x="155.604" y="705.3447">}</text><path d="M114.2118,725.9577 L282.8466,725.9577 L282.8466,731.3233 L275.1814,738.9886 L114.2118,738.9886 L114.2118,725.9577 " fill="#FFFFFF" style="stroke: #5D5D5D; stroke-width: 0.766521974961366;"/><rect fill="none" height="112.7416" style="stroke: #5D5D5D; stroke-width: 0.766521974961366;" width="636.5965" x="114.2118" y="725.9577"/><text fill="#5D5D5D" font-family="Tahoma" font-size="9.9648" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="134.1413" x="125.7096" y="736.6939">Protected resource access</text><polygon fill="#5D5D5D" points="703.6672,805.8167,711.3324,808.8828,703.6672,811.9489,706.7333,808.8828" style="stroke: #5D5D5D; stroke-width: 0.766521974961366;"/><line style="stroke: #5D5D5D; stroke-width: 1.533043949922732;" x1="142.5731" x2="708.2663" y1="808.8828" y2="808.8828"/><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="62.8548" x="147.9387" y="753.3212">curl --request</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="19.163" x="213.8596" y="753.3212">GET</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="3.8326" x="236.0888" y="753.3212">\</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="19.163" x="154.0709" y="766.2742">--url</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="200.0622" x="176.3001" y="766.2742">https://api.farfetch.net/user/12345/whislist</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="3.8326" x="379.4284" y="766.2742">\</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="0" x="154.0709" y="779.2272"/><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="158.67" x="154.0709" y="779.2272">--header 'accept: application/json'</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="3.8326" x="315.8071" y="779.2272">\</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="0" x="154.0709" y="792.1803"/><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="189.3309" x="154.0709" y="792.1803">--header 'content-type: application/json'</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="3.8326" x="346.4679" y="792.1803">\</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="0" x="154.0709" y="805.1333"/><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="45.2248" x="154.0709" y="805.1333">--header '</text><text fill="#5D5D5D" filter="url(#boecfxr4az5sp2)" font-family="Tahoma" font-size="10.7313" font-style="italic" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="249.1196" x="199.2957" y="805.1333">authorization: bearer AYjcyMzY3ZDhiNmJkNTY</text><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="2.2996" x="448.4154" y="805.1333">'</text><polygon fill="#5D5D5D" points="151.0048,829.501,143.3396,832.5671,151.0048,835.6332,147.9387,832.5671" style="stroke: #5D5D5D; stroke-width: 0.766521974961366;"/><line style="stroke: #5D5D5D; stroke-width: 1.533043949922732; stroke-dasharray: 2.0,2.0;" x1="146.4057" x2="712.0989" y1="832.5671" y2="832.5671"/><text fill="#5D5D5D" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="103.4805" x="155.604" y="828.8176">Wishlist of user 12345</text><text fill="#888888" font-family="Tahoma" font-size="7.6652" lengthAdjust="spacingAndGlyphs" textLength="0" x="4.5991" y="924.793"/><text fill="#000000" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="364.0979" x="51.357" y="937.1128">(*) The form-encoding was removed and the line breaks added for readability.</text><text fill="#888888" font-family="Tahoma" font-size="7.6652" lengthAdjust="spacingAndGlyphs" textLength="0" x="4.5991" y="946.9982"/><text fill="#000000" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="192.397" x="51.357" y="959.318">Font and background color conventions:</text><text fill="#000000" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="100.4144" x="54.4231" y="972.271">- All fields are required</text><text fill="#000000" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="3.8326" x="54.4231" y="985.224">-</text><text fill="#000000" filter="url(#boecfxr4az5sp0)" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="141.04" x="61.3218" y="985.224">OpenID Connection extension</text><text fill="#000000" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="3.8326" x="54.4231" y="998.177">-</text><text fill="#000000" font-family="Tahoma" font-size="10.7313" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="83.5509" x="61.3218" y="998.177">Required values</text><text fill="#000000" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="3.8326" x="54.4231" y="1011.1301">-</text><text fill="#000000" font-family="Tahoma" font-size="10.7313" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="37.5596" x="61.3218" y="1011.1301">Headers</text><text fill="#000000" font-family="Tahoma" font-size="10.7313" lengthAdjust="spacingAndGlyphs" textLength="3.8326" x="54.4231" y="1024.0831">-</text><text fill="#000000" filter="url(#boecfxr4az5sp1)" font-family="Tahoma" font-size="10.7313" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="168.6348" x="61.3218" y="1024.0831">Used in more than one message</text><!--MD5=[6e6a838868a6b65c6b1c3c595ad53c14]
+@startuml
+
+skinparam shadowing false
+skinparam defaultFontName Tahoma
+
+skinparam usecase {
+     FontName "Tahoma"
+     FontSize 16
+     BorderColor #e6e6e6
+     BackGroundColor #e6e6e6
+     FontColor #5d5d5d
+}
+
+skinparam actor  {
+    FontName "Tahoma"
+    FontSize 16
+    FontColor #5d5d5d
+    BackGroundColor white
+    BorderColor #5d5d5d
+    FontName "Tahoma"
+}
+
+skinparam participant  {
+     FontName "Tahoma"
+     FontSize 16
+     FontColor #white
+     BackGroundColor #5d5d5d
+     BorderColor #5d5d5d
+}
+
+skinparam rectangle  {
+     BorderThickness 1
+     Padding 24
+     FontName "Tahoma"
+     FontSize 16
+     FontStyle bold
+     FontColor #222222
+     BorderColor #b6b6b6
+     BackGroundColor #white
+}
+
+skinparam State  {
+     BorderThickness 1
+     Padding 24
+     FontName "Tahoma"
+     FontSize 16
+     FontColor #222222
+     BorderColor #b6b6b6
+     BackGroundColor #white
+}
+
+skinparam Activity  {
+     FontName "Tahoma"
+     FontSize 14
+     BorderColor #e6e6e6
+     BackGroundColor #e6e6e6
+     FontColor #5d5d5d
+}
+
+skinparam ActivityDiamond  {
+     BorderThickness 1
+     Padding 24
+     FontName "Tahoma"
+     FontSize 14
+     FontColor #222222
+     BorderColor #b6b6b6
+     BackGroundColor #white
+}
+
+skinparam card  {
+     FontName "Tahoma"
+     FontSize 16
+     FontColor #white
+     BackGroundColor #5d5d5d
+     BorderColor #5d5d5d
+}
+
+
+skinparam agent {
+     RoundCorner 40
+     FontName "Tahoma"
+     FontSize 16
+     BorderColor #e6e6e6
+     BackGroundColor #e6e6e6
+     FontColor #5d5d5d
+}
+
+skinparam cloud { 
+     FontName "Tahoma"
+     FontSize 16    
+     FontColor #222222
+     BorderColor #b6b6b6
+     BackGroundColor #white
+}
+
+skinparam Arrow{
+    Color #222222
+    FontColor #222222
+    FontSize 14
+    Thickness 1
+    FontName "Tahoma"
+}
+
+skinparam Line{
+    Color #222222
+    FontColor #222222
+    FontSize 14
+    Thickness 1
+    FontName "Tahoma"
+}
+
+skinparam Sequence {
+    ArrowColor #5d5d5d
+    ArrowFontColor #5d5d5d
+    ArrowFontSize 14
+    ArrowThickness 2
+    ArrowFontName "Tahoma"
+    LineColor #5d5d5d
+    LineFontColor #5d5d5d
+    LineFontSize 14
+    LineThickness 2
+    LineFontName "Tahoma"
+    LifeLineBackgroundColor #5d5d5d
+    LifeLineBorderColor #5d5d5d
+    LifeLineBorderThickness 2
+    GroupBorderColor #5d5d5d
+    GroupBorderThickness 1
+    GroupBackgroundColor white
+    GroupHeaderFontColor #5d5d5d
+}
+
+
+
+
+
+scale 768 width
+scale 1024 height
+
+actor "Customer" as customer
+participant "Client\nApp" as partner
+participant "Farfetch\nSTS" as farfetch
+participant "/wishlists" as resource
+
+group Authorization Code request 
+    customer -> partner: Clicks in login link
+    partner -> farfetch: <u>https://auth.farfetch.net/connect/authorize</u>\n<u>?<b>response_type=code</b> <back:#e6e6e6>""id_token""</back>&client_id=ff_awesome_client</u>\n<u>&<back:#94def3><b>redirect_uri=https://awesomeclientapp/callback-success</b></back></u>\n<u>&scope=<back:#e6e6e6>openid</back>+offline_access+commerce.wishlist.read&<back:#94def3><b>state=abcde&nonce=54321</b></back></u>(*)
+    farfetch - -> customer: ""302 Found"" redirect to authentication prompt
+    customer -> farfetch: User authenticates with\nusername, password, and consent
+    farfetch -> farfetch: Validates\nResource Owner\ncredentials
+    farfetch - -> partner: \n<u>https://awesomeclientapp/callback-success</u>\n<u>?<back:#94def3><b>code=hdh922&state=abcde&nonce=54321</b></back></u>\n<u>&<back:#e6e6e6>""id_token""=IYsjdhYsdldnnHHHn,ksnajJHkJkk</back></u>(*)
+end
+group Access Token request
+    partner -> farfetch: curl - -request <u>POST</u> \\\n  - -url <u>https://auth.farfetch.net/connect/token</u> \\\n  <i>- -header 'accept: application/json'</i> \\\n  <i>- -header 'content-type: application/x-www-form-urlencoded'</i> \\\n  - -data 'client_id=ff_awesome_client' \\\n  - -data 'client_secret=awesome_client_secret' \\\n  - -data '<b>grant_type=authorization_code</b>' \\\n  - -data '<back:#94def3><b>code=hdh922</b></back>' \\\n  - -data '<back:#94def3><b>redirect_uri=https://awesomeclientapp.net/callback-success</b></back>'
+    farfetch -> farfetch: Validates\nClient Credentials\nand Authorization Code
+    farfetch - -> partner: HTTP/1.1 200 OK\n<i>Content-Type: application/json</i>\n<i>Cache-Control: no-store</i>\n<i>Pragma: no-cache</i>\n{\n  <back:#2c9ab7><b>"access_token": "AYjcyMzY3ZDhiNmJkNTY"</b></back>,\n  <back:#2c9ab7><b>"token_type": "bearer"</b></back>,\n  "refresh_token": "AYjcyjasdHkAhSSiNmJkNTY"\n  "expires_in": 2400\n}
+end
+group Protected resource access
+    partner -> resource: curl - -request <u>GET</u> \\\n  - -url <u>https://api.farfetch.net/user/12345/whislist</u> \\\n  <i>- -header 'accept: application/json'</i> \\\n  <i>- -header 'content-type: application/json'</i> \\\n  <i>- -header '<b><back:#2c9ab7>authorization: bearer AYjcyMzY3ZDhiNmJkNTY</back></b>'</i>
+    resource - -> partner: Wishlist of user 12345
+end
+
+left footer \n<color #000><font size=14>\t\t(*) The form-encoding was removed and the line breaks added for readability.</font></color>\n\n<color #000><font size=14>\t\tFont and background color conventions:</font></color>\n<color #000><font size=14>\t\t - All fields are required</font></color>\n<color #000><font size=14>\t\t - <back:#e6e6e6>OpenID Connection extension</back></font></color>\n<color #000><font size=14>\t\t - <b>Required values</b></font></color>\n<color #000><font size=14>\t\t - <i>Headers</i></font></color>\n<color #000><font size=14>\t\t - <back:#94def3><b>Used in more than one message</b></back></font></color>
+
+@enduml
+
+PlantUML version 1.2019.11(Sun Sep 22 11:02:15 BST 2019)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) Client VM
+Java Version: 1.8.0_271-b09
+Operating System: Windows 10
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

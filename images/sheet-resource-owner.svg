@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1037.2088px" preserveAspectRatio="none" style="width:964px;height:1037px;" version="1.1" viewBox="0 0 964 1037" width="964.4894px" zoomAndPan="magnify"><defs><filter height="1" id="byfxjofowxb880" width="1" x="0" y="0"><feFlood flood-color="#94DEF3" result="flood"/><feComposite in="SourceGraphic" in2="flood" operator="over"/></filter></defs><g><rect fill="#FFFFFF" height="649.5662" style="stroke: #5D5D5D; stroke-width: 1.275779586572739;" width="868.8059" x="16.5851" y="130.5282"/><rect fill="#FFFFFF" height="103.1712" style="stroke: #5D5D5D; stroke-width: 1.275779586572739;" width="760.3646" x="190.0912" y="797.9553"/><line style="stroke: #5D5D5D; stroke-width: 2.551559173145478; stroke-dasharray: 5.0,5.0;" x1="76.5468" x2="76.5468" y1="108.8399" y2="922.8147"/><line style="stroke: #5D5D5D; stroke-width: 2.551559173145478; stroke-dasharray: 5.0,5.0;" x1="237.295" x2="237.295" y1="108.8399" y2="922.8147"/><line style="stroke: #5D5D5D; stroke-width: 2.551559173145478; stroke-dasharray: 5.0,5.0;" x1="779.5013" x2="779.5013" y1="108.8399" y2="922.8147"/><line style="stroke: #5D5D5D; stroke-width: 2.551559173145478; stroke-dasharray: 5.0,5.0;" x1="886.6668" x2="886.6668" y1="108.8399" y2="922.8147"/><text fill="#5D5D5D" font-family="Tahoma" font-size="20.4125" lengthAdjust="spacingAndGlyphs" textLength="86.753" x="29.3429" y="104.6239">Customer</text><ellipse cx="76.5468" cy="16.5851" fill="#FFFFFF" rx="10.2062" ry="10.2062" style="stroke: #5D5D5D; stroke-width: 2.551559173145478;"/><path d="M76.5468,26.7914 L76.5468,61.2374 M59.9616,36.9976 L93.1319,36.9976 M76.5468,61.2374 L59.9616,80.3741 M76.5468,61.2374 L93.1319,80.3741 " fill="none" style="stroke: #5D5D5D; stroke-width: 2.551559173145478;"/><text fill="#5D5D5D" font-family="Tahoma" font-size="20.4125" lengthAdjust="spacingAndGlyphs" textLength="86.753" x="29.3429" y="941.9614">Customer</text><ellipse cx="76.5468" cy="958.9352" fill="#FFFFFF" rx="10.2062" ry="10.2062" style="stroke: #5D5D5D; stroke-width: 2.551559173145478;"/><path d="M76.5468,969.1415 L76.5468,1003.5875 M59.9616,979.3477 L93.1319,979.3477 M76.5468,1003.5875 L59.9616,1022.7242 M76.5468,1003.5875 L93.1319,1022.7242 " fill="none" style="stroke: #5D5D5D; stroke-width: 2.551559173145478;"/><rect fill="#5D5D5D" height="67.1379" style="stroke: #5D5D5D; stroke-width: 1.9136693798591087;" width="68.8921" x="202.849" y="40.4263"/><text fill="#FFFFFF" font-family="Tahoma" font-size="20.4125" lengthAdjust="spacingAndGlyphs" textLength="51.0312" x="211.7794" y="69.7792">Client</text><text fill="#FFFFFF" font-family="Tahoma" font-size="20.4125" lengthAdjust="spacingAndGlyphs" textLength="36.9976" x="218.7962" y="94.4177">App</text><rect fill="#5D5D5D" height="67.1379" style="stroke: #5D5D5D; stroke-width: 1.9136693798591087;" width="68.8921" x="202.849" y="921.539"/><text fill="#FFFFFF" font-family="Tahoma" font-size="20.4125" lengthAdjust="spacingAndGlyphs" textLength="51.0312" x="211.7794" y="950.8918">Client</text><text fill="#FFFFFF" font-family="Tahoma" font-size="20.4125" lengthAdjust="spacingAndGlyphs" textLength="36.9976" x="218.7962" y="975.5303">App</text><rect fill="#5D5D5D" height="67.1379" style="stroke: #5D5D5D; stroke-width: 1.9136693798591087;" width="89.3046" x="734.849" y="40.4263"/><text fill="#FFFFFF" font-family="Tahoma" font-size="20.4125" lengthAdjust="spacingAndGlyphs" textLength="71.4437" x="743.7795" y="69.7792">Farfetch</text><text fill="#FFFFFF" font-family="Tahoma" font-size="20.4125" lengthAdjust="spacingAndGlyphs" textLength="35.7218" x="761.6404" y="94.4177">STS</text><rect fill="#5D5D5D" height="67.1379" style="stroke: #5D5D5D; stroke-width: 1.9136693798591087;" width="89.3046" x="734.849" y="921.539"/><text fill="#FFFFFF" font-family="Tahoma" font-size="20.4125" lengthAdjust="spacingAndGlyphs" textLength="71.4437" x="743.7795" y="950.8918">Farfetch</text><text fill="#FFFFFF" font-family="Tahoma" font-size="20.4125" lengthAdjust="spacingAndGlyphs" textLength="35.7218" x="761.6404" y="975.5303">STS</text><rect fill="#5D5D5D" height="42.4994" style="stroke: #5D5D5D; stroke-width: 1.9136693798591087;" width="100.7866" x="836.9114" y="65.0648"/><text fill="#FFFFFF" font-family="Tahoma" font-size="20.4125" lengthAdjust="spacingAndGlyphs" textLength="82.9257" x="845.8419" y="94.4177">/wishlists</text><rect fill="#5D5D5D" height="42.4994" style="stroke: #5D5D5D; stroke-width: 1.9136693798591087;" width="100.7866" x="836.9114" y="921.539"/><text fill="#FFFFFF" font-family="Tahoma" font-size="20.4125" lengthAdjust="spacingAndGlyphs" textLength="82.9257" x="845.8419" y="950.8918">/wishlists</text><path d="M16.5851,130.5282 L256.4317,130.5282 L256.4317,139.4587 L243.6739,152.2165 L16.5851,152.2165 L16.5851,130.5282 " fill="#FFFFFF" style="stroke: #5D5D5D; stroke-width: 1.275779586572739;"/><rect fill="none" height="649.5662" style="stroke: #5D5D5D; stroke-width: 1.275779586572739;" width="868.8059" x="16.5851" y="130.5282"/><text fill="#5D5D5D" font-family="Tahoma" font-size="16.5851" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="182.4365" x="35.7218" y="148.3972">Access Token request</text><polygon fill="#5D5D5D" points="221.9856,177.2088,234.7434,182.3119,221.9856,187.415,227.0888,182.3119" style="stroke: #5D5D5D; stroke-width: 1.275779586572739;"/><line style="stroke: #5D5D5D; stroke-width: 2.551559173145478;" x1="76.5468" x2="229.6403" y1="182.3119" y2="182.3119"/><text fill="#5D5D5D" font-family="Tahoma" font-size="17.8609" lengthAdjust="spacingAndGlyphs" textLength="130.1295" x="85.4772" y="176.0713">Clicks in login link</text><polygon fill="#5D5D5D" points="764.192,410.6565,776.9498,415.7596,764.192,420.8627,769.2951,415.7596" style="stroke: #5D5D5D; stroke-width: 1.275779586572739;"/><line style="stroke: #5D5D5D; stroke-width: 2.551559173145478;" x1="237.295" x2="771.8466" y1="415.7596" y2="415.7596"/><text fill="#5D5D5D" font-family="Tahoma" font-size="17.8609" lengthAdjust="spacingAndGlyphs" textLength="164.5756" x="246.2255" y="215.4909">curl --request POST \</text><text fill="#5D5D5D" font-family="Tahoma" font-size="17.8609" lengthAdjust="spacingAndGlyphs" textLength="368.7003" x="266.6379" y="237.0496">--url 'https://auth.farfetch.net/connect/token' \</text><text fill="#5D5D5D" font-family="Tahoma" font-size="17.8609" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="479.6931" x="266.6379" y="258.6082">--header 'Content-Type: application/x-www-form-urlencoded'</text><text fill="#5D5D5D" font-family="Tahoma" font-size="17.8609" lengthAdjust="spacingAndGlyphs" textLength="6.3789" x="751.4342" y="258.6082">\</text><text fill="#5D5D5D" font-family="Tahoma" font-size="17.8609" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="264.0864" x="266.6379" y="280.1669">--header 'accept: application/json'</text><text fill="#5D5D5D" font-family="Tahoma" font-size="17.8609" lengthAdjust="spacingAndGlyphs" textLength="6.3789" x="535.8274" y="280.1669">\</text><text fill="#5D5D5D" font-family="Tahoma" font-size="17.8609" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="269.1895" x="266.6379" y="301.7256">--data 'grant_type=password'</text><text fill="#5D5D5D" font-family="Tahoma" font-size="17.8609" lengthAdjust="spacingAndGlyphs" textLength="6.3789" x="540.9305" y="301.7256">\</text><text fill="#5D5D5D" font-family="Tahoma" font-size="17.8609" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="311.2902" x="266.6379" y="323.2843">--data 'client_id=ff_amazing_client'</text><text fill="#5D5D5D" font-family="Tahoma" font-size="17.8609" lengthAdjust="spacingAndGlyphs" textLength="6.3789" x="583.0313" y="323.2843">\</text><text fill="#5D5D5D" font-family="Tahoma" font-size="17.8609" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="390.3886" x="266.6379" y="344.843">--data 'client_secret=amazing_client_secret'</text><text fill="#5D5D5D" font-family="Tahoma" font-size="17.8609" lengthAdjust="spacingAndGlyphs" textLength="6.3789" x="662.1296" y="344.843">\</text><text fill="#5D5D5D" font-family="Tahoma" font-size="17.8609" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="287.0504" x="266.6379" y="366.4017">--data 'username=amazing.user'</text><text fill="#5D5D5D" font-family="Tahoma" font-size="17.8609" lengthAdjust="spacingAndGlyphs" textLength="6.3789" x="558.7915" y="366.4017">\</text><text fill="#5D5D5D" font-family="Tahoma" font-size="17.8609" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="389.1128" x="266.6379" y="387.9603">--data 'password=amazing_user_password'</text><text fill="#5D5D5D" font-family="Tahoma" font-size="17.8609" lengthAdjust="spacingAndGlyphs" textLength="6.3789" x="660.8538" y="387.9603">\</text><text fill="#5D5D5D" font-family="Tahoma" font-size="17.8609" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="252.6044" x="266.6379" y="409.519">--data 'scope=wishlists.read'</text><line style="stroke: #5D5D5D; stroke-width: 2.551559173145478;" x1="779.5013" x2="833.0841" y1="541.4139" y2="541.4139"/><line style="stroke: #5D5D5D; stroke-width: 2.551559173145478;" x1="833.0841" x2="833.0841" y1="541.4139" y2="557.9991"/><line style="stroke: #5D5D5D; stroke-width: 2.551559173145478;" x1="780.7771" x2="833.0841" y1="557.9991" y2="557.9991"/><polygon fill="#5D5D5D" points="793.5349,552.896,780.7771,557.9991,793.5349,563.1022,788.4318,557.9991" style="stroke: #5D5D5D; stroke-width: 1.275779586572739;"/><text fill="#5D5D5D" font-family="Tahoma" font-size="17.8609" lengthAdjust="spacingAndGlyphs" textLength="66.3405" x="788.4318" y="448.9386">Validates</text><text fill="#5D5D5D" font-family="Tahoma" font-size="17.8609" lengthAdjust="spacingAndGlyphs" textLength="39.5492" x="788.4318" y="470.4973">client</text><text fill="#5D5D5D" font-family="Tahoma" font-size="17.8609" lengthAdjust="spacingAndGlyphs" textLength="29.3429" x="788.4318" y="492.056">and</text><text fill="#5D5D5D" font-family="Tahoma" font-size="17.8609" lengthAdjust="spacingAndGlyphs" textLength="33.1703" x="788.4318" y="513.6147">user</text><text fill="#5D5D5D" font-family="Tahoma" font-size="17.8609" lengthAdjust="spacingAndGlyphs" textLength="81.6499" x="788.4318" y="535.1733">credentials</text><polygon fill="#5D5D5D" points="251.3286,764.785,238.5708,769.8881,251.3286,774.9912,246.2255,769.8881" style="stroke: #5D5D5D; stroke-width: 1.275779586572739;"/><line style="stroke: #5D5D5D; stroke-width: 2.551559173145478; stroke-dasharray: 2.0,2.0;" x1="243.6739" x2="778.2255" y1="769.8881" y2="769.8881"/><text fill="#5D5D5D" font-family="Tahoma" font-size="17.8609" lengthAdjust="spacingAndGlyphs" textLength="137.7842" x="258.9833" y="591.1781">HTTP/1.1 200 OK</text><text fill="#5D5D5D" font-family="Tahoma" font-size="17.8609" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="242.3981" x="258.9833" y="612.7368">Content-Type: application/json</text><text fill="#5D5D5D" font-family="Tahoma" font-size="17.8609" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="190.0912" x="258.9833" y="634.2954">Cache-Control: no-store</text><text fill="#5D5D5D" font-family="Tahoma" font-size="17.8609" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="144.1631" x="258.9833" y="655.8541">Pragma: no-cache</text><text fill="#5D5D5D" font-family="Tahoma" font-size="17.8609" lengthAdjust="spacingAndGlyphs" textLength="8.9305" x="258.9833" y="677.4128">{</text><text fill="#5D5D5D" font-family="Tahoma" font-size="17.8609" lengthAdjust="spacingAndGlyphs" textLength="0" x="269.1895" y="698.9715"/><text fill="#5D5D5D" filter="url(#byfxjofowxb880)" font-family="Tahoma" font-size="17.8609" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="404.4221" x="269.1895" y="698.9715">"access_token": "AYjcyMzY...3ZDhiNmJkNTY"</text><text fill="#5D5D5D" font-family="Tahoma" font-size="17.8609" lengthAdjust="spacingAndGlyphs" textLength="5.1031" x="673.6116" y="698.9715">,</text><text fill="#5D5D5D" font-family="Tahoma" font-size="17.8609" lengthAdjust="spacingAndGlyphs" textLength="0" x="269.1895" y="720.5302"/><text fill="#5D5D5D" filter="url(#byfxjofowxb880)" font-family="Tahoma" font-size="17.8609" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="207.9521" x="269.1895" y="720.5302">"token_type": "Bearer"</text><text fill="#5D5D5D" font-family="Tahoma" font-size="17.8609" lengthAdjust="spacingAndGlyphs" textLength="5.1031" x="477.1416" y="720.5302">,</text><text fill="#5D5D5D" font-family="Tahoma" font-size="17.8609" lengthAdjust="spacingAndGlyphs" textLength="145.4389" x="269.1895" y="742.0888">"expires_in": 2400</text><text fill="#5D5D5D" font-family="Tahoma" font-size="17.8609" lengthAdjust="spacingAndGlyphs" textLength="8.9305" x="258.9833" y="763.6475">}</text><path d="M190.0912,797.9553 L470.7627,797.9553 L470.7627,806.8857 L458.0049,819.6435 L190.0912,819.6435 L190.0912,797.9553 " fill="#FFFFFF" style="stroke: #5D5D5D; stroke-width: 1.275779586572739;"/><rect fill="none" height="103.1712" style="stroke: #5D5D5D; stroke-width: 1.275779586572739;" width="760.3646" x="190.0912" y="797.9553"/><text fill="#5D5D5D" font-family="Tahoma" font-size="16.5851" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="223.2614" x="209.2279" y="815.8243">Protected resource access</text><polygon fill="#5D5D5D" points="871.9953,846.3975,884.7531,851.5006,871.9953,856.6038,877.0985,851.5006" style="stroke: #5D5D5D; stroke-width: 1.275779586572739;"/><line style="stroke: #5D5D5D; stroke-width: 2.551559173145478;" x1="237.295" x2="879.65" y1="851.5006" y2="851.5006"/><text fill="#5D5D5D" font-family="Tahoma" font-size="17.8609" lengthAdjust="spacingAndGlyphs" textLength="168.4029" x="246.2255" y="845.26">Requests Resources (</text><text fill="#5D5D5D" font-family="monospace" font-size="17.8609" lengthAdjust="spacingAndGlyphs" textLength="367.4245" x="414.6284" y="843.5856">Authorization: Bearer &lt;access token&gt;</text><text fill="#5D5D5D" font-family="Tahoma" font-size="17.8609" lengthAdjust="spacingAndGlyphs" textLength="6.3789" x="782.0529" y="845.26">)</text><polygon fill="#5D5D5D" points="251.3286,885.8171,238.5708,890.9202,251.3286,896.0234,246.2255,890.9202" style="stroke: #5D5D5D; stroke-width: 1.275779586572739;"/><line style="stroke: #5D5D5D; stroke-width: 2.551559173145478; stroke-dasharray: 2.0,2.0;" x1="243.6739" x2="886.0289" y1="890.9202" y2="890.9202"/><text fill="#5D5D5D" font-family="Tahoma" font-size="17.8609" lengthAdjust="spacingAndGlyphs" textLength="168.4029" x="258.9833" y="884.6796">Requested Resources</text><!--MD5=[ee05f4d6a1f389940acd937891260358]
+@startuml
+
+
+skinparam shadowing false
+skinparam defaultFontName Tahoma
+
+skinparam usecase {
+     FontName "Tahoma"
+     FontSize 16
+     BorderColor #e6e6e6
+     BackGroundColor #e6e6e6
+     FontColor #5d5d5d
+}
+
+skinparam actor  {
+    FontName "Tahoma"
+    FontSize 16
+    FontColor #5d5d5d
+    BackGroundColor white
+    BorderColor #5d5d5d
+    FontName "Tahoma"
+}
+
+skinparam participant  {
+     FontName "Tahoma"
+     FontSize 16
+     FontColor #white
+     BackGroundColor #5d5d5d
+     BorderColor #5d5d5d
+}
+
+skinparam rectangle  {
+     BorderThickness 1
+     Padding 24
+     FontName "Tahoma"
+     FontSize 16
+     FontStyle bold
+     FontColor #222222
+     BorderColor #b6b6b6
+     BackGroundColor #white
+}
+
+skinparam State  {
+     BorderThickness 1
+     Padding 24
+     FontName "Tahoma"
+     FontSize 16
+     FontColor #222222
+     BorderColor #b6b6b6
+     BackGroundColor #white
+}
+
+skinparam Activity  {
+     FontName "Tahoma"
+     FontSize 14
+     BorderColor #e6e6e6
+     BackGroundColor #e6e6e6
+     FontColor #5d5d5d
+}
+
+skinparam ActivityDiamond  {
+     BorderThickness 1
+     Padding 24
+     FontName "Tahoma"
+     FontSize 14
+     FontColor #222222
+     BorderColor #b6b6b6
+     BackGroundColor #white
+}
+
+skinparam card  {
+     FontName "Tahoma"
+     FontSize 16
+     FontColor #white
+     BackGroundColor #5d5d5d
+     BorderColor #5d5d5d
+}
+
+
+skinparam agent {
+     RoundCorner 40
+     FontName "Tahoma"
+     FontSize 16
+     BorderColor #e6e6e6
+     BackGroundColor #e6e6e6
+     FontColor #5d5d5d
+}
+
+skinparam cloud { 
+     FontName "Tahoma"
+     FontSize 16    
+     FontColor #222222
+     BorderColor #b6b6b6
+     BackGroundColor #white
+}
+
+skinparam Arrow{
+    Color #222222
+    FontColor #222222
+    FontSize 14
+    Thickness 1
+    FontName "Tahoma"
+}
+
+skinparam Line{
+    Color #222222
+    FontColor #222222
+    FontSize 14
+    Thickness 1
+    FontName "Tahoma"
+}
+
+skinparam Sequence {
+    ArrowColor #5d5d5d
+    ArrowFontColor #5d5d5d
+    ArrowFontSize 14
+    ArrowThickness 2
+    ArrowFontName "Tahoma"
+    LineColor #5d5d5d
+    LineFontColor #5d5d5d
+    LineFontSize 14
+    LineThickness 2
+    LineFontName "Tahoma"
+    LifeLineBackgroundColor #5d5d5d
+    LifeLineBorderColor #5d5d5d
+    LifeLineBorderThickness 2
+    GroupBorderColor #5d5d5d
+    GroupBorderThickness 1
+    GroupBackgroundColor white
+    GroupHeaderFontColor #5d5d5d
+}
+
+
+scale 768 width
+scale 1024 height
+
+
+actor "Customer" as customer
+participant "Client\nApp" as partner
+participant "Farfetch\nSTS" as farfetch
+participant "/wishlists" as resource
+
+group Access Token request
+    customer -> partner: Clicks in login link
+    partner -> farfetch: curl - -request POST \\\n    - -url 'https://auth.farfetch.net/connect/token' \\\n<i>    - -header 'Content-Type: application/x-www-form-urlencoded'</i> \\\n<i>    - -header 'accept: application/json'</i> \\\n<b>    - -data 'grant_type=password'</b> \\\n<b>    - -data 'client_id=ff_amazing_client'</b> \\\n<b>    - -data 'client_secret=amazing_client_secret'</b> \\\n<b>    - -data 'username=amazing.user'</b> \\\n<b>    - -data 'password=amazing_user_password'</b> \\\n<b>    - -data 'scope=wishlists.read'</b> 
+    farfetch -> farfetch: Validates\nclient\nand\nuser\ncredentials
+    farfetch - -> partner: HTTP/1.1 200 OK\n<i>Content-Type: application/json</i>\n<i>Cache-Control: no-store</i>\n<i>Pragma: no-cache</i>\n{\n  <b><back:#94def3>"access_token": "AYjcyMzY...3ZDhiNmJkNTY"</back></b>,\n  <b><back:#94def3>"token_type": "Bearer"</back></b>,\n  "expires_in": 2400\n}
+end
+group Protected resource access
+    partner -> resource: Requests Resources (""Authorization: Bearer <access token>"")
+    resource - -> partner: Requested Resources
+end
+@enduml
+
+PlantUML version 1.2019.11(Sun Sep 22 11:02:15 BST 2019)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) Client VM
+Java Version: 1.8.0_271-b09
+Operating System: Windows 10
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

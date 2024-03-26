@@ -1,0 +1,21 @@
+@startuml
+
+actor "Customer" as customer
+participant "Client\nApp" as partner
+participant "STS" as sts
+
+group Authorization Code request
+    customer -> partner: Clicks in login link
+    partner -> sts: Requests Authorization Code\nreponse_type=code <back:#e6e6e6>""id_token""</back>\n<back:#e6e6e6>+ openid scope</back> + ""offline_access""
+    sts --> customer: ""302 Found"" redirect to authentication prompt
+    customer -> sts: User authenticates with\nusername and password
+    sts -> sts: Validates\nuser\ncredentials
+    sts --> partner: Authorization Code Response\n<back:#e6e6e6>+ ""id_token""</back>
+end
+group Access Token request
+    partner -> sts: Requests Access Token with\nClient Credentials and Authorization Code
+    sts -> sts: Validates\nClient Credentials\nand Authorization Code
+    sts --> partner: Access Token Response (and optionally Refresh Token)
+end
+@enduml
+

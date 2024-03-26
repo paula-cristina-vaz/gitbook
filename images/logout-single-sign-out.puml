@@ -1,0 +1,13 @@
+@startuml
+!include diagram-config.puml!tutorial
+
+actor "Customer" as customer
+participant "Client\nApp" as partner
+participant "Farfetch\nSTS" as farfetch
+
+customer -> partner: Clicks in logout
+partner -> farfetch: Requests End Session\nwith ""post_logout_redirect_uri""\n<back:#e6e6e6>+ ""id_token""</back>
+farfetch -> farfetch: Ends and removes\ncustomer session
+farfetch --> customer: Redirects customer to ""post_logout_redirect_uri""
+@enduml
+
