@@ -1,5 +1,5 @@
 <!--title:start-->
-# How to Authenticate using OAuth 2.0
+# Authenticate Flows
 <!--title:end-->
 <!--shortdesc:start-->
 List of authentication flows.
