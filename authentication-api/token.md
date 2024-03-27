@@ -15,15 +15,8 @@ Requests an access token using the back-end channel to  Security Token Service (
 | `redirect_uri` | String<br/>Required if `grant_type=authorization_code`| URI to where  redirects the client application after a successful authentication of the customer.<br/><br/>**Note**: It must match exactly one of the URIs registered for the client application at . |
 | `refresh_token` |String<br/>Required if `grant_type=refresh_token` | The refresh token to request another access token.|
 | `client_secret` | String<br/>Optional |Client secret either in the post request body or as a basic authentication header. |
-| `scope` | String<br/>Optional |One or more [ registered scopes](https://auth..net/.well-known/openid-configuration). If you do not specify `scope`,  STS issues a token for all explicitly allowed scopes.|
+| `scope` | String<br/>Optional |One or more [ registered scopes](https://<authorization-servcer-url>/.well-known/openid-configuration). If you do not specify `scope`,  STS issues a token for all explicitly allowed scopes.|
 | `code_verifier` | String<br/>Optional |The PKCE proof key that  STS issues in an [authorization code flow with PKCE](../how-to/authorization-code-with-pkce.md). |
-
-## Guest user parameters
-
-| Parameters              | Type | Description |
-|------------------------ |-------------------- | -------------------- |
-| `guestUserEmail`| String<br/>Optional | Email of the guest user. For example, `jane.customer%40mail.pt`. |
-| `guestUserSecretCode` | String<br/>Optional | Guest user secrete code. For example, the guest user order identifier `PCTQV3`. |
 
 ## Token exchange parameters
 
@@ -32,7 +25,7 @@ Requests an access token using the back-end channel to  Security Token Service (
 | `grant_type` | Enumerate<br/>Required | **Must** have value `urn:ietf:params:oauth:grant-type:token-exchange`. |
 | `resource` | String<br/>Optional | URI that indicates the target resource where the client intend to use the requested security token. |
 | `audience` | String<br/>Optional | The logical name of the target resource where the client intend to use the requested security token. |
-| `scope` | String<br/>Optional |One or more [ registered scopes](https://auth..net/.well-known/openid-configuration). If you do not specify `scope`,  STS issues a token for all explicitly allowed scopes.|
+| `scope` | String<br/>Optional |One or more [ registered scopes](https://<authorization-servcer-url>/.well-known/openid-configuration). If you do not specify `scope`,  STS issues a token for all explicitly allowed scopes.|
 | `requested_token_type` | Enumerate<br/>Optional | One of the following:<ul><li>`urn:ietf:params:oauth:token-type:access_token` - Indicates that the token is an OAuth 2.0 access token issued by the given authorization server.</li></ul> | 
 | `subject_token` | JWT<br/>Required| The security token that represents the identity of the subject on behalf of whom the request is being made. | 
 | `subject_token_type` |  Enumerate<br/>Optional | One of the following:<ul><li>`urn:ietf:params:oauth:token-type:access_token` - Indicates that the token is an OAuth 2.0 access token issued by the given authorization server.</li></ul> |
@@ -64,7 +57,7 @@ The following table lists the properties in the response:
        "token_type":"Basic",     
        "expires_in":3600,     
        "refresh_token":"tGzv3JOkF0...XG5Qx2TlKWIA",
-       "scopes": "stockpoints"
+       "scopes": "read"
     }
 ```
 
@@ -77,10 +70,10 @@ Line breaks were added for readability.
 
 ```shell
 curl --request POST \
-  --url https://auth..net/connect/token \
+  --url https://<authorization-servcer-url>/connect/token \
   --header 'accept: application/json' \
   --header 'content-type: application/x-www-form-urlencoded' \
-  --data 'client_id=_amazing_client' \
+  --data 'client_id=amazing_client' \
   --data 'client_secret=amazing_client_secret' \
   --data 'grant_type=authorization_code' \
   --data 'code=hdh922' \
@@ -117,7 +110,7 @@ var response = await client.RequestAuthorizationCodeTokenAsync(new Authorization
 {
     Address = TokenEndpoint,
 
-    ClientId = "_amazing_client",
+    ClientId = "amazing_client",
     ClientSecret = "amazing_client_secret",
 
     Code = "hdh922",
@@ -125,33 +118,4 @@ var response = await client.RequestAuthorizationCodeTokenAsync(new Authorization
     RedirectUri = "https://amazingclientapp.net/callback-success"
 });
 ```
-
-### Grant type: guest user
-
-The following request is a generic example:
-
-```shell
-curl --request POST \
-   --url    'https://auth..net/connect/token' \
-   --header 'content-type: application/x-www-form-urlencoded' \
-   --data-urlencode 'client_id=_amazing_client' \
-   --data-urlencode 'client_secret=_amazing_client_secret' \
-   --data-urlencode 'grant_type=GuestUser' \
-   --data-urlencode 'scope=api'
-```
-
-The following request includes the guest user email and the guest user secret code for order processing:
-
-```shell
-curl --request POST \
-   --url    'https://auth..net/connect/token' \
-   --header 'content-type: application/x-www-form-urlencoded' \
-   --data-urlencode 'client_id=_amazing_client' \
-   --data-urlencode 'client_secret=_amazing_client_secret' \
-   --data-urlencode 'grant_type=GuestUser' \
-   --data-urlencode 'scope=api' \
-   --data-urlencode 'guestUserEmail=jane.customer%40mail.pt' \
-   --data-urlencode 'guestUserSecretCode=PCTQV3' 
-```
-
 <!--desc:end-->
