@@ -2,7 +2,7 @@
 # Authentication APIs
 <!--title:end-->
 <!--shortdesc:start-->
-URI of Farfetch Security Token Service (STS).
+URI of  Security Token Service (STS).
 <!--shortdesc:end-->
 <!--desc:start-->
 
@@ -11,8 +11,8 @@ Domains:
 
 | Type | URI |
 |----|---|
-| Front-office | `https://auth.farfetch.net` |
-| Back-office| `https://authbo.farfetch.net` |
+| Front-oice | `https://auth..net` |
+| Back-oice| `https://authbo..net` |
 
 Authentication API:
 
@@ -29,9 +29,9 @@ Authentication API:
 
 Auth & FFID Apis:
 
-* [Authentication Public API - ffid-core-api](apis/ffid-core-api.md)
-* [Front-office Authentication Internal API - auth-identity-api](apis/auth-identity-api.md)
-* [Back-office Authentication Internal API - auth-identity-apibo](apis/auth-identity-apibo.md)
-* [Farfetch ffid accessmgt partners API - ffid-accessmgt-partners](apis/ffid-accessmgt-partners.md)
+* [Authentication Public API - id-core-api](apis/id-core-api.md)
+* [Front-oice Authentication Internal API - auth-identity-api](apis/auth-identity-api.md)
+* [Back-oice Authentication Internal API - auth-identity-apibo](apis/auth-identity-apibo.md)
+* [ id accessmgt partners API - id-accessmgt-partners](apis/id-accessmgt-partners.md)
 
 <!--desc:end-->

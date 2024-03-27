@@ -10,21 +10,21 @@ Exchange a refresh token for an access token and avoid asking the user to authen
 <!--desc:start-->
 ## Overview
 
-After a successful execution of the implemented authorization flow, Farfetch Security Token Service (STS) provides an access token to the client application. With the access token, the client app can access the protected resources until it expires. 
+After a successful execution of the implemented authorization flow,  Security Token Service (STS) provides an access token to the client application. With the access token, the client app can access the protected resources until it expires. 
 
-If the client app has implemented the authorization code flow ([with](authorization-code-with-pkce.md) or [without](authorization-code.md) PKCE), Farfetch STS may also provide a refresh token. With the refresh token, the client app can request a new access token without re-executing the authorization flow.
+If the client app has implemented the authorization code flow ([with](authorization-code-with-pkce.md) or [without](authorization-code.md) PKCE),  STS may also provide a refresh token. With the refresh token, the client app can request a new access token without re-executing the authorization flow.
 
-> If the client app has implemented the [implicit flow](implicit.md), Farfetch STS **doesn't** provide refresh tokens to the client application.
+> If the client app has implemented the [implicit flow](implicit.md),  STS **doesn't** provide refresh tokens to the client application.
 
 Access with refresh token involves the following participants:
 
 | Participant |   |
 |-------------- |--------------- |
 | Client Application | The application that the customer is using. |
-| Farfetch STS |Security Token Service (STS). It represents the authentication server. |
+|  STS |Security Token Service (STS). It represents the authentication server. |
 | /wishlist | Protected resource in the resource server. |
 
-To request a refresh token, you **must** include scope `offline_access` in the `/connect/authorize` request. The following sequence diagram shows the process of requesting a new access token with a refresh token:
+To request a refresh token, you **must** include scope `oline_access` in the `/connect/authorize` request. The following sequence diagram shows the process of requesting a new access token with a refresh token:
 
 ![](../images/access-with-refresh-token.svg)
 
@@ -37,10 +37,10 @@ If the `access_token` is no longer valid, the client app can send a request to t
 
 ```shell
 curl --request POST \
-  --url https://auth.farfetch.net/connect/token \
+  --url https://auth..net/connect/token \
   --header 'accept: application/json' \
   --header 'content-type: application/x-www-form-urlencoded' \
-  --data 'client_id=ff_amazing_client' \
+  --data 'client_id=_amazing_client' \
   --data 'client_secret=amazing_client_secret' \
   --data 'grant_type=refresh_token' \
   --data 'refresh_token=4b96...2099b8'
@@ -48,9 +48,9 @@ curl --request POST \
 
 * `client_id` and `client_secret` contain the client app credentials.
 * `grant_type` **must** have the value `refresh_token`.
-* `refresh_token` **must** contain the refresh token that Farfetch STS provided in the previous `access_token` request.
+* `refresh_token` **must** contain the refresh token that  STS provided in the previous `access_token` request.
 
-If Farfetch STS can validate the client credentials and the `refresh_token`, it sends a `200 OK` with the new `access_token` and a new `refresh_token` as follows:
+If  STS can validate the client credentials and the `refresh_token`, it sends a `200 OK` with the new `access_token` and a new `refresh_token` as follows:
 
 ```json
 HTTP/1.1 200 OK
@@ -66,8 +66,8 @@ Pragma: no-cache
 }
 ```
 
-With the new `access_token`, the client app can make new requests to Farfetch resource server.
-If Farfetch STS doesn't return the same `refresh_token`, it means that it remains valid.
+With the new `access_token`, the client app can make new requests to  resource server.
+If  STS doesn't return the same `refresh_token`, it means that it remains valid.
 
 > Refresh tokens also have an expiration date. You need to decode the `refresh_token` to view the expiration date of the `refresh_token`. 
 <!--desc:end-->

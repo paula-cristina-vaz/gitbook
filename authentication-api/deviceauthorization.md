@@ -9,14 +9,14 @@ Endpoint `/connect/deviceauthorization`  starts the device authorization flow.
 
 | Parameter   | Description                        |
 | ------------| ---------------------------------- |
-| `client_id` | **Required** - The client identifier that Farfetch issues when the device client makes the registration at Farfetch. |
+| `client_id` | **Required** - The client identifier that  issues when the device client makes the registration at . |
 | `client_secret` | Client secret either in the post request body or as a basic authentication header.<br/>If the client device configuration requires, add the client secret.|
-| `scope` | One or more [Farfetch registered scopes](https://auth.farfetch.net/.well-known/openid-configuration). If you do not specify `scope`, Farfetch STS issues a token for all explicitly allowed scopes.|
+| `scope` | One or more [ registered scopes](https://auth..net/.well-known/openid-configuration). If you do not specify `scope`,  STS issues a token for all explicitly allowed scopes.|
 
 ## Example
 
 ```http
-POST https://auth.farfetch.net/connect/deviceauthorization
+POST https://auth..net/connect/deviceauthorization
 
     client_id=client_tv&
     client_secret=client_tv_secret&
@@ -33,7 +33,7 @@ var client = new HttpClient();
 
 var response = await client.RequestDeviceAuthorizationAsync(new DeviceAuthorizationRequest
 {
-    Address = "https://auth.farfetch.net/connect/device_authorize",
+    Address = "https://auth..net/connect/device_authorize",
     ClientId = "client_tv"
 });
 ```

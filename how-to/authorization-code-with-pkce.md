@@ -23,8 +23,8 @@ ACF-PCKE is optimized for web apps and involves the following participants:
 | Participants | |
 |------------- |------- |
 | Customer | User or resource owner. It also represents the user-agent. The user-agent is the application that the resource owner uses to access the client (browser, native application, etc). |
-| Client Application | Client application and the owner of the client application:<ul><li>The owner of the client application can be a Farfecth partner or Farfetch itself.</li><li>The client application can be a website, a single page application, a mobile application, etc.</li></ul>The client application **must** be registered at Farfetch. |
-| Farfetch STS | Security Token Service (STS). It represents the authentication server. |
+| Client Application | Client application and the owner of the client application:<ul><li>The owner of the client application can be a Farfecth partner or  itself.</li><li>The client application can be a website, a single page application, a mobile application, etc.</li></ul>The client application **must** be registered at . |
+|  STS | Security Token Service (STS). It represents the authentication server. |
 | /wishlist | Protected resource in the resource server. /wishlist is used as an example of a resource.|
 
 The following sequence diagram shows the ACF-PKCE for a client application that wants to access the customer wish lists:
@@ -58,14 +58,14 @@ After generating the `code_verifier` and the `code_challenge`, the client applic
 
 ### 2. Authorization Code request
 
-The client application sends a request using [/connect/authorize](../authentication-api/authorize.md) to the Farfetch STS as follows:
+The client application sends a request using [/connect/authorize](../authentication-api/authorize.md) to the  STS as follows:
 
 ```http
-GET https://auth.farfetch.net/connect/authorize
+GET https://auth..net/connect/authorize
   ?response_type=code id_token
-  &client_id=ff_amazing_client
+  &client_id=_amazing_client
   &redirect_uri=https://amazingclientapp/callback-success
-  &scope=openid+offline_access+commerce.wishlist.read
+  &scope=openid+oline_access+commerce.wishlist.read
   &nonce=12345
   &state=abcde
   &code_challenge=MWE4Y2QyNTZlY...NGU4MzM5NjMwYTIxNGUxYTI4Nw
@@ -75,21 +75,21 @@ GET https://auth.farfetch.net/connect/authorize
 * `response_type=code id_token` indicates the type of response that the client application is expecting:
     * `code` indicates that the client application expects an authorization code.
     * `id_token` indicates that the client application expects an id token.
-* `client_id` is the id that Farfetch issued for the client application when it was registered.
-* `redirect_uri` is one of the redirect URIs that were registered at Farfetch as belonging to the client application.
-* `scope=openid+offline_access+commerce.wishlist.read` indicates the scopes that the client application is requesting.
+* `client_id` is the id that  issued for the client application when it was registered.
+* `redirect_uri` is one of the redirect URIs that were registered at  as belonging to the client application.
+* `scope=openid+oline_access+commerce.wishlist.read` indicates the scopes that the client application is requesting.
     * `openid` indicates that the client application is requesting the claim `sub` in the [access token](../authentication-api/access-token.md) and the claims `iss`, `aud`, `iat`, and `exp` in the [id token](../authentication-api/id-token.md).
-    * `offline_access` indicates that the client application is requesting a refresh token.
+    * `oline_access` indicates that the client application is requesting a refresh token.
     * `commerce.wishlist.read` indicates that the client application is requesting to read the `/wishlists` resource.
     *  `scope` **must** include all the scopes that the client application wants to request.
 * `nonce` is an arbitrary number and a timestamp that can be used just once.
-* `state` is an arbitrary value that Farfetch STS returns in the `redirect_uri` to prevent Cross-Site Request Forgery.
+* `state` is an arbitrary value that  STS returns in the `redirect_uri` to prevent Cross-Site Request Forgery.
 * `code_challenge` is the encrypted `code_verifier`.
 * `code_challenge_method=S256` indicates that the client application generated the `code_challenge` using SHA256 encryption.
 
 > If you want customized pages for your login, add `acr_values` with the proper value to the `/connect/authorize` request. For example, `acr_values=browns` for Browns customized pages. 
 
-Farfetch STS sends a `302 Found` and directs the customer to a prompt where it asks the customer to login. If it recognizes the customer, it redirects the customer to the `redirect_uri` in the `GET /connect/authorize` request. For example:
+ STS sends a `302 Found` and directs the customer to a prompt where it asks the customer to login. If it recognizes the customer, it redirects the customer to the `redirect_uri` in the `GET /connect/authorize` request. For example:
 
 ```http
 https://amazingclientapp/callback-success
@@ -105,18 +105,18 @@ https://amazingclientapp/callback-success
 The client application compares the received `code_challenge` with the one generated from its `code_verifier`. 
 If they match, the client application can use the authorization `code` to request the access token. Otherwise, the flow **must** end.
 
-If Farfetch STS doesn't recognize the customer, it sends a `403 Forbidden` to the client application and the flow **must** end. 
+If  STS doesn't recognize the customer, it sends a `403 Forbidden` to the client application and the flow **must** end. 
 
 ### 3. Access Token request
 
-The client application sends a request using [/connect/token](../authentication-api/token.md) to the Farfetch STS as follows:
+The client application sends a request using [/connect/token](../authentication-api/token.md) to the  STS as follows:
 
 ```shell
 curl --request POST \
-  --url https://auth.farfetch.net/connect/token \
+  --url https://auth..net/connect/token \
   --header 'accept: application/json' \
   --header 'content-type: application/x-www-form-urlencoded' \
-  --data 'client_id=ff_amazing_client' \
+  --data 'client_id=_amazing_client' \
   --data 'client_secret=amazing_client_secret' \
   --data 'grant_type=authorization_code' \
   --data 'code=hdh922' \
@@ -124,22 +124,22 @@ curl --request POST \
   --data 'code_verifier=SDIL_Ksdkljlsd239847-sdcfsd~2342342.dfsdfU'
 ```
 
-* `client_id` is the id that Farfetch issued for the client application when it was registered.
-* `client_secret` is the client application *password* that Farfetch issued for the client application when it was registered.
+* `client_id` is the id that  issued for the client application when it was registered.
+* `client_secret` is the client application *password* that  issued for the client application when it was registered.
 * `grant_type=authorization_code` indicates the type of flow the client application is using.
 * `code` is the authorization code that the client application received in the `redirect_uri`
 * `redirect_uri` **must** be the same as the one used in the `GET /connect/authorize` request.
 * `code_verifier` is the random string that the client application created to generate the `code_challenge`.
 
-After receiving, `/connect/token` request, Farfetch STS proceeds as follows:
+After receiving, `/connect/token` request,  STS proceeds as follows:
 
-1. Farfetch STS validates the client credentials. 
-    * If the client credentials are valid, Farfetch STS uses the `code_verifier` to generate a `code_challenge`. 
+1.  STS validates the client credentials. 
+    * If the client credentials are valid,  STS uses the `code_verifier` to generate a `code_challenge`. 
     * Otherwise, it ends the flow with a `403 Forbidden`.
 3. Compares the generated `code_challenge` with the one received before. 
     * If the code challenges match and they are valid, it verifies the authorization `code`.
     * Otherwise, it ends the flow with a `400 Bad Request`.
-5. Farfetch STS validates the authorization `code`.
+5.  STS validates the authorization `code`.
     *  If the authorization `code` is valid, it generates the access and id tokens and sends a `200 OK` to the client application with the access and id tokens.
     * Otherwise,  it ends the flow with a `400 Bad Request`.
 
@@ -171,13 +171,13 @@ The following example shows a request from  /wishlists:
 
 ```shell
 curl --request GET \
-  --url https://api.farfetch.net/user/123456/wishlists \
+  --url https://api..net/user/123456/wishlists \
   --header 'accept: application/json' \
   --header 'content-type: application/json' \
   --header 'authorization: Bearer AYjcyMzY3ZDhiNmJkNTY'
 ```
 
-* The `authorization` header contains the token of type `Bearer` that the Farfetch STS sent in response to the `POST /connect/token` request.
+* The `authorization` header contains the token of type `Bearer` that the  STS sent in response to the `POST /connect/token` request.
 
 ## Implementation cheat sheet
 

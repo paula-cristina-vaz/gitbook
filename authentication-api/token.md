@@ -3,20 +3,20 @@
 <!--title:end-->
 <!--shortdesc:start-->
 
-Requests an access token using the back-end channel to Farfetch Security Token Service (STS). 
+Requests an access token using the back-end channel to  Security Token Service (STS). 
 <!--shortdesc:end-->
 <!--desc:start-->
 
 | Parameters              | Type | Description |
 |------------------------ |-------------------- | -------------------- |
-| `client_id` | Integer<br/>Required |The client identifier that Farfetch issues when the client makes the registration at Farfetch.|
-| `code` | String<br/>Required if `grant_type=authorization_code` | The code that Farfetch STS issues in response to a `GET /connect/authorize` request.|
+| `client_id` | Integer<br/>Required |The client identifier that  issues when the client makes the registration at .|
+| `code` | String<br/>Required if `grant_type=authorization_code` | The code that  STS issues in response to a `GET /connect/authorize` request.|
 | `grant_type` | Enumerate<br/>Required |One of the following <ul><li>`AliPay`</li><li>`DeviceToken`</li><li>`Facebook`</li><li>`GuestUser`</li><li>`Impersonate`</li><li>`OpenId`</li><li>`WeChat`</li><li>`WeChatMini`</li><li>`authorization_code`</li><li>`client_credentials`</li><li>`ica_password`</li><li>`implicit`</li><li>`password`</li><li>`refresh_token`</li><li>`urn:ietf:params:oauth:grant-type:device_code`</li><li>`urn:ietf:params:oauth:grant-type:token-exchange`</li></ul>|
-| `redirect_uri` | String<br/>Required if `grant_type=authorization_code`| URI to where Farfetch redirects the client application after a successful authentication of the customer.<br/><br/>**Note**: It must match exactly one of the URIs registered for the client application at Farfetch. |
+| `redirect_uri` | String<br/>Required if `grant_type=authorization_code`| URI to where  redirects the client application after a successful authentication of the customer.<br/><br/>**Note**: It must match exactly one of the URIs registered for the client application at . |
 | `refresh_token` |String<br/>Required if `grant_type=refresh_token` | The refresh token to request another access token.|
 | `client_secret` | String<br/>Optional |Client secret either in the post request body or as a basic authentication header. |
-| `scope` | String<br/>Optional |One or more [Farfetch registered scopes](https://auth.farfetch.net/.well-known/openid-configuration). If you do not specify `scope`, Farfetch STS issues a token for all explicitly allowed scopes.|
-| `code_verifier` | String<br/>Optional |The PKCE proof key that Farfetch STS issues in an [authorization code flow with PKCE](../how-to/authorization-code-with-pkce.md). |
+| `scope` | String<br/>Optional |One or more [ registered scopes](https://auth..net/.well-known/openid-configuration). If you do not specify `scope`,  STS issues a token for all explicitly allowed scopes.|
+| `code_verifier` | String<br/>Optional |The PKCE proof key that  STS issues in an [authorization code flow with PKCE](../how-to/authorization-code-with-pkce.md). |
 
 ## Guest user parameters
 
@@ -32,7 +32,7 @@ Requests an access token using the back-end channel to Farfetch Security Token S
 | `grant_type` | Enumerate<br/>Required | **Must** have value `urn:ietf:params:oauth:grant-type:token-exchange`. |
 | `resource` | String<br/>Optional | URI that indicates the target resource where the client intend to use the requested security token. |
 | `audience` | String<br/>Optional | The logical name of the target resource where the client intend to use the requested security token. |
-| `scope` | String<br/>Optional |One or more [Farfetch registered scopes](https://auth.farfetch.net/.well-known/openid-configuration). If you do not specify `scope`, Farfetch STS issues a token for all explicitly allowed scopes.|
+| `scope` | String<br/>Optional |One or more [ registered scopes](https://auth..net/.well-known/openid-configuration). If you do not specify `scope`,  STS issues a token for all explicitly allowed scopes.|
 | `requested_token_type` | Enumerate<br/>Optional | One of the following:<ul><li>`urn:ietf:params:oauth:token-type:access_token` - Indicates that the token is an OAuth 2.0 access token issued by the given authorization server.</li></ul> | 
 | `subject_token` | JWT<br/>Required| The security token that represents the identity of the subject on behalf of whom the request is being made. | 
 | `subject_token_type` |  Enumerate<br/>Optional | One of the following:<ul><li>`urn:ietf:params:oauth:token-type:access_token` - Indicates that the token is an OAuth 2.0 access token issued by the given authorization server.</li></ul> |
@@ -51,11 +51,11 @@ The following table lists the properties in the response:
 
 | Property | Type | Description|
 |---- |---- |----|
-| `access_token` | JWT<br/>Required |The access token that Farfetch STS issues. |
+| `access_token` | JWT<br/>Required |The access token that  STS issues. |
 | `token_type` | Enumerate<br/>Required |Token type. One of the following:<ul><li>`Bearer`</li><li>`Basic`</li></ul>|
 | `expires_in` | Integer<br/>Required | The lifetime in seconds of the `access_token`. |
-| `refresh_token` | JWT<br/>Optional |The refresh token that can be used to obtain a new access token without asking for a new customer login.<br/><br/>**Note**: Farfetch STS doesn't issue refresh tokens for the implicit authentication flow.|
-| `scope` | String<br/>Required if the scopes associated to the client application at Farfetch STS are different from the ones in request `/connect/authorize`. | Returns the scopes associated to the client application in Farfetch STS. |
+| `refresh_token` | JWT<br/>Optional |The refresh token that can be used to obtain a new access token without asking for a new customer login.<br/><br/>**Note**:  STS doesn't issue refresh tokens for the implicit authentication flow.|
+| `scope` | String<br/>Required if the scopes associated to the client application at  STS are dierent from the ones in request `/connect/authorize`. | Returns the scopes associated to the client application in  STS. |
 
 
 ```http
@@ -77,10 +77,10 @@ Line breaks were added for readability.
 
 ```shell
 curl --request POST \
-  --url https://auth.farfetch.net/connect/token \
+  --url https://auth..net/connect/token \
   --header 'accept: application/json' \
   --header 'content-type: application/x-www-form-urlencoded' \
-  --data 'client_id=ff_amazing_client' \
+  --data 'client_id=_amazing_client' \
   --data 'client_secret=amazing_client_secret' \
   --data 'grant_type=authorization_code' \
   --data 'code=hdh922' \
@@ -117,7 +117,7 @@ var response = await client.RequestAuthorizationCodeTokenAsync(new Authorization
 {
     Address = TokenEndpoint,
 
-    ClientId = "ff_amazing_client",
+    ClientId = "_amazing_client",
     ClientSecret = "amazing_client_secret",
 
     Code = "hdh922",
@@ -132,10 +132,10 @@ The following request is a generic example:
 
 ```shell
 curl --request POST \
-   --url    'https://auth.farfetch.net/connect/token' \
+   --url    'https://auth..net/connect/token' \
    --header 'content-type: application/x-www-form-urlencoded' \
-   --data-urlencode 'client_id=ff_amazing_client' \
-   --data-urlencode 'client_secret=ff_amazing_client_secret' \
+   --data-urlencode 'client_id=_amazing_client' \
+   --data-urlencode 'client_secret=_amazing_client_secret' \
    --data-urlencode 'grant_type=GuestUser' \
    --data-urlencode 'scope=api'
 ```
@@ -144,10 +144,10 @@ The following request includes the guest user email and the guest user secret co
 
 ```shell
 curl --request POST \
-   --url    'https://auth.farfetch.net/connect/token' \
+   --url    'https://auth..net/connect/token' \
    --header 'content-type: application/x-www-form-urlencoded' \
-   --data-urlencode 'client_id=ff_amazing_client' \
-   --data-urlencode 'client_secret=ff_amazing_client_secret' \
+   --data-urlencode 'client_id=_amazing_client' \
+   --data-urlencode 'client_secret=_amazing_client_secret' \
    --data-urlencode 'grant_type=GuestUser' \
    --data-urlencode 'scope=api' \
    --data-urlencode 'guestUserEmail=jane.customer%40mail.pt' \

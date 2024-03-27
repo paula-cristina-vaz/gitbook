@@ -13,7 +13,7 @@ List of authentication flows.
 | [Client Credentials](how-to/client-credentials.md) | Authenticate your client application with client credentials. |
 | [Implicit](how-to/implicit.md) | Authenticate the client application:and the user with the Implicit flow. |
 | [Resource Owner](how-to/resource-owner.md) | Authenticate the client application and the user with resource owner flow. |
-| [Login with Facebook](how-to/facebook.md) | Provide to the customer the option to use a Facebook account to authenticate at Farfetch Platform. |
+| [Login with Facebook](how-to/facebook.md) | Provide to the customer the option to use a Facebook account to authenticate at  Platform. |
 | [Guest User Flow](guest-user.md) | Request an access token for a guest user that placed an order. |
 | [Device Authorization Flow](how-to/device-authorization.md) | Request an access token for a device. |
 | [Token Exchange Flow](how-to/token-exchange.md) | Request the exchange of access tokens to delegate permissions on a trusted client application. |

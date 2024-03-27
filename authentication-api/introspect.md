@@ -63,7 +63,7 @@ var client = new HttpClient();
 
 var response = await client.IntrospectTokenAsync(new TokenIntrospectionRequest
 {
-    Address = "https://auth.farfetch.net/connect/introspect",
+    Address = "https://auth..net/connect/introspect",
     ClientId = "awesome_client",
     ClientSecret = "awesome_client_secret",
 

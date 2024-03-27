@@ -12,7 +12,7 @@ This document explains OAuth 2.0.
 
 #### Audience
 
-This document is intended for developers that need to authenticate users and client applications in Farfetch Platform.
+This document is intended for developers that need to authenticate users and client applications in  Platform.
 
 
 <!--tree:start-->
@@ -29,7 +29,7 @@ This document is intended for developers that need to authenticate users and cli
 
 
 #### Feedback
-Any feedback is always welcome, because it helps us improve the documentation for you. Please send us [email](mailto:paula.vaz@farfetch.com). We’d love to hear from you.
+Any feedback is always welcome, because it helps us improve the documentation for you. Please send us [email](mailto:paula.vaz@.com). We’d love to hear from you.
 
 Tell us what you think about the usability of the documentation.
 

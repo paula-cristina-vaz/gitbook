@@ -15,7 +15,7 @@ If customer login is successful `/connect/authorize` responds with an authorizat
 
 | Properties | Type | Description |
 |--- |--- |---|
-| `code` | String<br/>Required | The authorization code that Farfetch STS generates. Note that the authorization code expires in 10 min.<br/><br/>**Attention:** Do not use the authorization code in more than one token request. If you use an authorization code in more than one token request, all your tokens will be revoked. |
+| `code` | String<br/>Required | The authorization code that  STS generates. Note that the authorization code expires in 10 min.<br/><br/>**Attention:** Do not use the authorization code in more than one token request. If you use an authorization code in more than one token request, all your tokens will be revoked. |
 | `nonce` | String<br/>Required | If the `nonce` parameter was sent in the `/connect/authorize` request. It **must** be the same `nonce` that the client application sent in the `/connect/authorize` request. |
 | `state` | String<br/>Required | If the `state` parameter was sent in the `/connect/authorize` request. It **must** be the same `state` that the client application sent in the `/connect/authorize` request. |
 | `code_challenge` | String<br/>Required when using PKCE| The `code_challenge` sent in the `/connect/authorize` request. It **must** be the same `code_challenge` that the client application sent in the `/connect/authorize` request. |

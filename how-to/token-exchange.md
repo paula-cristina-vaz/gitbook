@@ -15,7 +15,7 @@ This tutorial requires:
 
 ## Overview
 
-This flow is named "Token Exchange", because Farfetch STS issues a second access token that allows a resource A to access a resource B on behalf of the customer and the client application. The client application delegates in resource A the necessary permissions that allow resource A to act on behalf of the customer. The access token claims inform Resource B who is the customer, the client application and who is the delegate that is acting on behalf of the customer and the client application.
+This flow is named "Token Exchange", because  STS issues a second access token that allows a resource A to access a resource B on behalf of the customer and the client application. The client application delegates in resource A the necessary permissions that allow resource A to act on behalf of the customer. The access token claims inform Resource B who is the customer, the client application and who is the delegate that is acting on behalf of the customer and the client application.
 
 **Delegation** works as follows:
 
@@ -23,7 +23,7 @@ This flow is named "Token Exchange", because Farfetch STS issues a second access
 2. The client application obtains an access token.
 3. The client application makes a request to Resource A.
 4. Resource A obtains an access token.
-5. Resource A requests Farfetch STS to issue a new token with the permissions that allow Resource A to act on behalf of the Customer.
+5. Resource A requests  STS to issue a new token with the permissions that allow Resource A to act on behalf of the Customer.
 6. With the new access token, Resource A makes requests to Resource B on behalf of the Customer.
 
 The Token Exchange flow involves the following participants:
@@ -31,10 +31,10 @@ The Token Exchange flow involves the following participants:
 | Participants | |
 |------------- |------- |
 | Customer | User or resource owner. |
-| Client application | Application where the customer authenticates and that interacts with Farfetch Platform.  |
+| Client application | Application where the customer authenticates and that interacts with  Platform.  |
 | Resource A | The resource that will act on behalf of the Customer to get information from Resource B.|
 | Resource B | The resource that contains the requested information. |
-| Farfetch STS | Farfetch Security Token Service (STS). It represents the authentication server. |
+|  STS |  Security Token Service (STS). It represents the authentication server. |
 
 The following sequence diagram shows the Token Exchange flow for a resource that wants to access a second resource on behalf of the customer:
 
@@ -64,12 +64,12 @@ Resource A sends a request using [/connect/token](../authentication-api/token.md
 
 ```shell
   curl --location --request POST \
-    --url 'https://auth.farfetch.net/connect/token' \
+    --url 'https://auth..net/connect/token' \
     --header 'Accept: application/json' \
     --header 'Content-Type: application/x-www-form-urlencoded' \
     --data-urlencode 'grant_type=urn:ietf:params:oauth:grant-type:token-exchange' \
     --data-urlencode 'resource=https://api.farfecth.net/resourceb/' \
-    --data-urlencode 'client_id=ff_amazing_client' \
+    --data-urlencode 'client_id=_amazing_client' \
     --data-urlencode 'subject_token=tGzv3JOkF0...XG5Qx2TlKWIA' \
     --data-urlencode 'subject_token_type=urn:ietf:params:oauth:token-type:access_token' \
     --data-urlencode 'actor_token=2YotnFZFEj...r1zCsicMWpAA' \
@@ -79,7 +79,7 @@ Resource A sends a request using [/connect/token](../authentication-api/token.md
 
 * `grant_type=urn:ietf:params:oauth:grant-type:token-exchange` indicates the type of flow the Resource A is using.
 * `resource` indicates the Resource B.
-* `client_id` is the id that Farfetch issued for the client application when it was registered.
+* `client_id` is the id that  issued for the client application when it was registered.
 * Subject:
   - `subject_token` is the access token that identifies the customer and the client application.
   - `subject_token_type` indicates the token type. It **must** be `urn:ietf:params:oauth:token-type:access_token`.
@@ -89,7 +89,7 @@ Resource A sends a request using [/connect/token](../authentication-api/token.md
 * `scope` indicates the scopes that the Resource A is requesting to access Resource B on behalf of the customer and the client application.
   
 
-After receiving the `/connect/token` request, Farfetch STS verifies the credentials and the access tokens. If it recognizes the customer, the client application and the actor, it sends a `200 OK` to Resource A with the `access_token` containing the new scopes.
+After receiving the `/connect/token` request,  STS verifies the credentials and the access tokens. If it recognizes the customer, the client application and the actor, it sends a `200 OK` to Resource A with the `access_token` containing the new scopes.
 
 ```json
 HTTP/1.1 200 OK
@@ -114,13 +114,13 @@ The following code shows an example of the claims in the access token.
    "iss":"https://issuer.example.com",
    "exp":1443904177,
    "nbf":1443904077,
-   "sub":"customer@farfetch.com",
-   "client_id": "ff_amazing_client",
+   "sub":"customer@.com",
+   "client_id": "_amazing_client",
    "scope": "resoruceb.read respourceb.write",
    "act":
    {
-     "sub":"admin@farfetch.com",
-     "client_id": "ff_amazing_actor"
+     "sub":"admin@.com",
+     "client_id": "_amazing_actor"
    }
  }
 

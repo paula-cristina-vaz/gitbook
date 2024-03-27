@@ -19,8 +19,8 @@ The Device Authorization flow involves the following participants:
 | Participants | |
 |------------- |------- |
 | Customer | Customer is the end user at a browser that is trying to authenticate in a smart device. For example, a Smart TV.  |
-| Client Device | The client device is the device that the customer uses to authenticate in the Farfetch Platform. For example, a Smart TV.  |
-| Farfetch STS | Farfetch Security Token Service (STS) is the authentication server. |
+| Client Device | The client device is the device that the customer uses to authenticate in the  Platform. For example, a Smart TV.  |
+|  STS |  Security Token Service (STS) is the authentication server. |
 
 The following sequence diagram shows the Device Authorization flow:
 
@@ -30,24 +30,24 @@ The following sequence diagram shows the Device Authorization flow:
 
 ### 1. Request the device verification code
 
-The client device sends a request using [/connect/deviceauthorization](../authentication-api/deviceauthorization.md) to the Farfetch STS as follows:
+The client device sends a request using [/connect/deviceauthorization](../authentication-api/deviceauthorization.md) to the  STS as follows:
 
 ```bash
 curl --request POST \
-  --url https://auth.farfetch.net/connect/deviceauthorization \
-  --data-urlencode 'client_id=ff_smart_client' \
-  --data-urlencode 'client_secret=ff_smart_client_secret' \
-  --data-urlencode 'scope=openid+profile+offline_access'
+  --url https://auth..net/connect/deviceauthorization \
+  --data-urlencode 'client_id=_smart_client' \
+  --data-urlencode 'client_secret=_smart_client_secret' \
+  --data-urlencode 'scope=openid+profile+oline_access'
 ```
 
-* `client_id` is the id that Farfetch issued for the client device when it was registered.
+* `client_id` is the id that  issued for the client device when it was registered.
 * `client_secret` is the secret of the client device. If the client device configuration requires, add the client secret.
-* `scope=openid+profile+offline_access` indicates the scopes that the client device is requesting.
+* `scope=openid+profile+oline_access` indicates the scopes that the client device is requesting.
     * `openid` indicates that the client device is requesting the claim `sub` in the [access token](../authentication-api/access-token.md) and the claims `iss`, `aud`, `iat`, and `exp` in the [id token](../authentication-api/id-token.md)
     * `profile` indicates that the client device is requesting to use the customer name.
-    * `offline_access` indicates that the client device is requesting a refresh token.
+    * `oline_access` indicates that the client device is requesting a refresh token.
 
-After receiving, [/connect/deviceauthorization](../authentication-api/deviceauthorization.md) request, Farfetch STS sends the following answer:
+After receiving, [/connect/deviceauthorization](../authentication-api/deviceauthorization.md) request,  STS sends the following answer:
 
 ```json
 HTTP/1.1 200 OK
@@ -58,8 +58,8 @@ Pragma: no-cache
 {
     "device_code": "021cdf83-96b7-4f4f-b062-acc23861a0c8",
     "user_code": "QWERTYUI",
-    "verification_uri": "https://farfetch.com/activate",
-    "verification_uri_complete": "https://farfetch.com/activate?user_code=QWERTYUI",
+    "verification_uri": "https://.com/activate",
+    "verification_uri_complete": "https://.com/activate?user_code=QWERTYUI",
     "expires_in": 200,
     "interval": 5
 }
@@ -72,7 +72,7 @@ Pragma: no-cache
 * `expires_in` are the number of seconds that the `device_code` and the `user_code` are valid. After the `device_code` and the `user_code` expire, the customer has to start the process again.
 * `interval` are the number of seconds that the client device **should** wait between polls.
 
-After receiving the `device_code` in the [/connect/deviceauthorization](../authentication-api/deviceauthorization.md) response, the client device starts polling Farfetch STS with the `client_id` and the `device_code`. The client device stops polling when the customer completes the authentication with the `user_code`.
+After receiving the `device_code` in the [/connect/deviceauthorization](../authentication-api/deviceauthorization.md) response, the client device starts polling  STS with the `client_id` and the `device_code`. The client device stops polling when the customer completes the authentication with the `user_code`.
 
 ### 2. Show user code to customer
 
@@ -106,23 +106,23 @@ The customer **must** do one of the following:
 
 ### 3. Request the access token
 
-While the customer is authentication, the client device polls Farfetch STS with a [/connect/token](../authentication-api/token.md) token request as follows:
+While the customer is authentication, the client device polls  STS with a [/connect/token](../authentication-api/token.md) token request as follows:
 
 ```bash
 curl --request POST \
-  --url https://auth.farfetch.net/connect/token \
+  --url https://auth..net/connect/token \
   --header 'Accept: application/json' \
   --header 'Content-Type: application/x-www-form-urlencoded' \
-  --data-urlencode 'client_id=ff_device_client' \
+  --data-urlencode 'client_id=_device_client' \
   --data-urlencode 'grant_type=urn:ietf:params:oauth:grant-type:device_code' \
   --data-urlencode 'device_code=021cdf83-96b7-4f4f-b062-acc23861a0c8'
 ```
 
-* `client_id` is the id that Farfetch issued for the client device when it was registered.
+* `client_id` is the id that  issued for the client device when it was registered.
 * `grant_type=urn:ietf:params:oauth:grant-type:device_code` indicates that the client is a device.
 * `device_code` is the code that identifies the device.
 
-After receiving, [/connect/token](../authentication-api/token.md) request, Farfetch STS proceeds as follows:
+After receiving, [/connect/token](../authentication-api/token.md) request,  STS proceeds as follows:
 
 * If the customer has not completed authentication:
 
@@ -150,7 +150,7 @@ Pragma: no-cache
   "token_type": "Bearer",
   "expires_in": 3600,
   "access_token": "eyJraWQ...JQuDJh8g",
-  "scope": "openid profile offline_access",
+  "scope": "openid profile oline_access",
   "refresh_token": "zcLdr1FBXwtI9ej98VVVwtjDd-SmaoL06qr_UcY2tNA",
   "id_token": "eyJraWQ...WI6KR0aQ"
 }
