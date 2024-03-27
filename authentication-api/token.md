@@ -50,6 +50,7 @@ The following table lists the properties in the response:
 | `refresh_token` | JWT<br/>Optional |The refresh token that can be used to obtain a new access token without asking for a new customer login.<br/><br/>**Note**:  STS doesn't issue refresh tokens for the implicit authentication flow.|
 | `scope` | String<br/>Required if the scopes associated to the client application at  STS are dierent from the ones in request `/connect/authorize`. | Returns the scopes associated to the client application in  STS. |
 
+## Token response
 
 ```http
    {     
