@@ -25,7 +25,7 @@ Requests an access token using the back-end channel to  Security Token Service (
 | `grant_type` | Enumerate<br/>Required | **Must** have value `urn:ietf:params:oauth:grant-type:token-exchange`. |
 | `resource` | String<br/>Optional | URI that indicates the target resource where the client intend to use the requested security token. |
 | `audience` | String<br/>Optional | The logical name of the target resource where the client intend to use the requested security token. |
-| `scope` | String<br/>Optional |One or more [ registered scopes](https://<authorization-servcer-url>/.well-known/openid-configuration). If you do not specify `scope`,  STS issues a token for all explicitly allowed scopes.|
+| `scope` | String<br/>Optional |One or more registered scopes. If you do not specify `scope`,  STS issues a token for all explicitly allowed scopes.|
 | `requested_token_type` | Enumerate<br/>Optional | One of the following:<ul><li>`urn:ietf:params:oauth:token-type:access_token` - Indicates that the token is an OAuth 2.0 access token issued by the given authorization server.</li></ul> | 
 | `subject_token` | JWT<br/>Required| The security token that represents the identity of the subject on behalf of whom the request is being made. | 
 | `subject_token_type` |  Enumerate<br/>Optional | One of the following:<ul><li>`urn:ietf:params:oauth:token-type:access_token` - Indicates that the token is an OAuth 2.0 access token issued by the given authorization server.</li></ul> |
