@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Initial page](README.md)
+* [OAuth 2.0 Overview](what-is-oauth-20.md)
 * [Authorization Flows](authorization.md)
   - [Authorization Code](how-to/authorization-code.md)
 * [Authorization Endpoints](authentication-api.md)

@@ -1,5 +1,5 @@
 <!--title:start-->
-# What is OAuth 2.0
+# OAuth 2.0 Overview
 <!--title:end-->
 <!--shortdesc:start-->
 OAuth 2.0 is an authorization framework.
