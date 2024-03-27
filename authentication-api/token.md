@@ -15,7 +15,7 @@ Requests an access token using the back-end channel to  Security Token Service (
 | `redirect_uri` | String<br/>Required if `grant_type=authorization_code`| URI to where  redirects the client application after a successful authentication of the customer.<br/><br/>**Note**: It must match exactly one of the URIs registered for the client application at . |
 | `refresh_token` |String<br/>Required if `grant_type=refresh_token` | The refresh token to request another access token.|
 | `client_secret` | String<br/>Optional |Client secret either in the post request body or as a basic authentication header. |
-| `scope` | String<br/>Optional |One or more [ registered scopes](https://<authorization-servcer-url>/.well-known/openid-configuration). If you do not specify `scope`,  STS issues a token for all explicitly allowed scopes.|
+| `scope` | String<br/>Optional |One or more registered scopes. If you do not specify `scope`,  STS issues a token for all explicitly allowed scopes.|
 | `code_verifier` | String<br/>Optional |The PKCE proof key that  STS issues in an [authorization code flow with PKCE](../how-to/authorization-code-with-pkce.md). |
 
 ## Token exchange parameters
