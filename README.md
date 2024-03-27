@@ -1,6 +1,7 @@
-<!--labels= "authentication"-->
 <!--title:start-->
+
 # Authentication
+
 <!--title:end-->
 
 <!--shortdesc:start-->
@@ -17,7 +18,9 @@ This document is intended for developers that need to authenticate users and cli
 
 <!--tree:start-->
 
-| In this section |      |
+## In this document
+
+| |      |
 |------|------|
 | [OAuth 2.0 Overview](what-is-oauth-20.md) | OAuth 2.0 is an authorization framework. |
 | [How to Authenticate using OAuth 2.0](authentication.md) | List of authentication flows. |
