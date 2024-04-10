@@ -1,0 +1,1 @@
+{% swagger src="openapi.petstore.json" path="/stars" method="post" %} openapi.petstore.json {% endswagger %}
