@@ -7,3 +7,4 @@
 * [Authorization Endpoints](authentication-api.md)
   - [/connect/authorize](authentication-api/authorize.md)
   - [/connect/token](authentication-api/token.md)
+* [PetStore](./openapi.petstore.json)
