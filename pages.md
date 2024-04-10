@@ -2,7 +2,7 @@
 
 ## /pet
 
-{% swagger src="pets.json" path="/pet" method="post" %} pets.json {% endswagger %}
+{% swagger src="pets.yaml" path="/pet" method="post" %} pets.yaml {% endswagger %}
 
-{% swagger src="pets.json" path="/pet" method="get" %} pets.json {% endswagger %}
+{% swagger src="pets.yaml" path="/pet" method="put" %} pets.yaml {% endswagger %}
 
