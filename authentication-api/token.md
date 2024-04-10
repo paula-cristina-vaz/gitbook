@@ -15,7 +15,7 @@ Requests an access token using the back-end channel to  Security Token Service (
 | `redirect_uri` | String<br/>Required if `grant_type=authorization_code`| URI to where  redirects the client application after a successful authentication of the customer.<br/><br/>**Note**: It must match exactly one of the URIs registered for the client application at . |
 | `refresh_token` |String<br/>Required if `grant_type=refresh_token` | The refresh token to request another access token.|
 | `client_secret` | String<br/>Optional |Client secret either in the post request body or as a basic authentication header. |
-| `scope` | String<br/>Optional |One or more [ registered scopes](https://<authorization-servcer-url>/.well-known/openid-configuration). If you do not specify `scope`,  STS issues a token for all explicitly allowed scopes.|
+| `scope` | String<br/>Optional |One or more registered scopes. If you do not specify `scope`,  STS issues a token for all explicitly allowed scopes.|
 | `code_verifier` | String<br/>Optional |The PKCE proof key that  STS issues in an [authorization code flow with PKCE](../how-to/authorization-code-with-pkce.md). |
 
 ## Token exchange parameters
@@ -25,7 +25,7 @@ Requests an access token using the back-end channel to  Security Token Service (
 | `grant_type` | Enumerate<br/>Required | **Must** have value `urn:ietf:params:oauth:grant-type:token-exchange`. |
 | `resource` | String<br/>Optional | URI that indicates the target resource where the client intend to use the requested security token. |
 | `audience` | String<br/>Optional | The logical name of the target resource where the client intend to use the requested security token. |
-| `scope` | String<br/>Optional |One or more [ registered scopes](https://<authorization-servcer-url>/.well-known/openid-configuration). If you do not specify `scope`,  STS issues a token for all explicitly allowed scopes.|
+| `scope` | String<br/>Optional |One or more registered scopes. If you do not specify `scope`,  STS issues a token for all explicitly allowed scopes.|
 | `requested_token_type` | Enumerate<br/>Optional | One of the following:<ul><li>`urn:ietf:params:oauth:token-type:access_token` - Indicates that the token is an OAuth 2.0 access token issued by the given authorization server.</li></ul> | 
 | `subject_token` | JWT<br/>Required| The security token that represents the identity of the subject on behalf of whom the request is being made. | 
 | `subject_token_type` |  Enumerate<br/>Optional | One of the following:<ul><li>`urn:ietf:params:oauth:token-type:access_token` - Indicates that the token is an OAuth 2.0 access token issued by the given authorization server.</li></ul> |
@@ -50,6 +50,7 @@ The following table lists the properties in the response:
 | `refresh_token` | JWT<br/>Optional |The refresh token that can be used to obtain a new access token without asking for a new customer login.<br/><br/>**Note**:  STS doesn't issue refresh tokens for the implicit authentication flow.|
 | `scope` | String<br/>Required if the scopes associated to the client application at  STS are dierent from the ones in request `/connect/authorize`. | Returns the scopes associated to the client application in  STS. |
 
+## Token response
 
 ```http
    {     
