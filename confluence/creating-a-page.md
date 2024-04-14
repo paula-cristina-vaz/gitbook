@@ -65,7 +65,8 @@ curl -v -S -u my.email@work.com:MyToken \
  -X POST \
  -H "X-Atlassian-Token: no-check" \ 
  -F "file=@world.png" \
--F "comment=this is the image" http://my-cloud.atlassian.com/confluence/rest/api/content/123456789/child/attachment
+ -F "comment=this is the image" 
+http://my-cloud.atlassian.com/confluence/rest/api/content/123456789/child/attachment
 ```
 
 ```bash
@@ -74,3 +75,5 @@ curl -v -S -u my.email@work.com:MyToken \
 ```
 
 ## Result
+
+After executing all the steps you should be able to view a page with an image created in your space.
