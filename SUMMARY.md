@@ -1,7 +1,7 @@
 # Table of contents
 
-* [OAuth example]()
-  * [Initial page](README.md)
+* [Home](home.md)
+* [OAuth example](README.md)
   * [OAuth 2.0 Overview](what-is-oauth-20.md)
   * [Authorization Flows](authentication.md)
     - [Authorization Code](how-to/authorization-code.md)
